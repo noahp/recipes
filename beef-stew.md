@@ -1,4 +1,4 @@
-# Beef Stew
+# 🍲 Beef Stew
 
 [Original
 recipe](https://www.seriouseats.com/recipes/2016/01/all-american-beef-stew-recipe.html)

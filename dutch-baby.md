@@ -1,4 +1,4 @@
-# Dutch Baby
+# 🥞 Dutch Baby
 
 [Original recipe](https://www.seriouseats.com/recipes/2012/04/dutch-baby-pancake-recipe.html)
 

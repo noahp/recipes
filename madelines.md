@@ -1,4 +1,4 @@
-# Madelines
+# 🐚 Madelines
 
 [Original
 recipe](https://www.allrecipes.com/recipe/9954/french-butter-cakes-madeleines/)
