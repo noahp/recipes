@@ -12,7 +12,7 @@ This will make enough dough for 2-3x 10" pizzas, I'm guessing
 - 500g flour (ideally type 0 or 00; or anything with ~12% protein and fine mill.
   I've had good results with general purpose like KAF's [West Coast
   Artisan](https://www.kingarthurflour.com/pro/products))
-- ~300g water at 90-95F
+- ~350g (baker's percentage 70%) water at 90-95F
 - 1 tsp commercial yeast (or sourdough starter etc.)
 - ~10g salt
 
