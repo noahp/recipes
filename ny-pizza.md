@@ -9,9 +9,7 @@ recipe](https://www.reddit.com/r/FoodPorn/comments/e2fhg5/second_attempt_on_new_
 
 This will make enough dough for 2-3x 10" pizzas, I'm guessing
 
-- 500g flour (ideally type 0 or 00; or anything with ~12% protein and fine mill.
-  I've had good results with general purpose like KAF's [West Coast
-  Artisan](https://www.kingarthurflour.com/pro/products))
+- 500g flour (see [flour note](#flour-note))
 - ~350g (baker's percentage 70%) water at 90-95F
 - 1 tsp commercial yeast (or sourdough starter etc.)
 - ~10g salt
@@ -21,6 +19,11 @@ This will make enough dough for 2-3x 10" pizzas, I'm guessing
    minutes to autolyze
 2. add yeast and salt, mix thoroughly. put in the fridge overnight, or up to 2-3
    days
+
+<a name="flour-note"></a>*Flour note: ideally type 0 or 00; or anything with
+  ~12% protein and fine mill. I've had good results with general purpose like
+  KAF's [Select Artisan](https://www.kingarthurflour.com/pro/products). You can
+  also use all-purpose or bread flour for just fine results too.*
 
 ### Pizza sauce
 
