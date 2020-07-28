@@ -1,4 +1,4 @@
-# 🌮 recipes
+# 🌮 Recipes
 
 - [🍲 beef-stew](beef-stew.html)
 - [🍩 beignets](beignets.html)

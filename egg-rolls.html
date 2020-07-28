@@ -16,8 +16,7 @@
   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-    @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500);
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap);
     @import url("gh-fork-ribbon.css");
 
     h1,
@@ -32,22 +31,7 @@
       font-family: 'Open Sans';
       color: rgb(51, 51, 51);
       box-sizing: border-box;
-      min-width: 200px;
-      max-width: 980px;
-      margin: 56px auto 0 auto;
-      padding: 45px;
     }
-
-    @media (max-width: 767px) {
-      header {
-        font-size: 15px;
-      }
-
-      body {
-        padding: 15px;
-      }
-    }
-
 
     footer {
       font-size: 12px;
@@ -58,13 +42,31 @@
 </head>
 
 <body>
-  <zero-md src="./recipes/egg-rolls.md"></zero-md>
+  <zero-md src="./recipes/egg-rolls.md">
+    <template>
+      <style>
+        h1,
+        h2,
+        h3 {
+          font-family: 'Open Sans';
+          font-weight: 700;
+          color: rgb(51, 51, 51);
+        }
+
+        body {
+          font-family: 'Open Sans';
+          color: rgb(51, 51, 51);
+          box-sizing: border-box;
+        }
+      </style>
+    </template>
+  </zero-md>
 
 
   <hr />
 
   <footer>
-    <p>generated on 2020-07-28T19:07:18Z</p>
+    <p>generated on 2020-07-28T19:25:26Z</p>
   </footer>
 </body>
 
