@@ -40,7 +40,9 @@ def get_recipe_data():
 def get_index_lines(recipe_data):
     """get the index entries"""
     index_entry_template = "- [{} {}]({})"
-    index_entries = "\n".join([index_entry_template.format(x[0], x[1], x[1]+".html") for x in recipe_data])
+    index_entries = "\n".join(
+        [index_entry_template.format(x[0], x[1], x[1] + ".html") for x in recipe_data]
+    )
     return index_entries
 
 
