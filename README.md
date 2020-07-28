@@ -15,8 +15,9 @@ For testing the site gen, you might do the following (requires Docker):
 # file watcher
 cargo install watchexec
 
-# rebuild everything on any file change and serve it with python
-watchexec -s SIGKILL "./test.sh && python3 -m http.server --directory public"
+# serve it with python, and rebuild everything on any file change.
+# the trap nonsense see https://stackoverflow.com/a/22644006
+(trap "exit" INT TERM; trap "kill 0" EXIT; python3 -m http.server --directory public & watchexec "./test.sh" & wait)
 ```
 
 Now open http://0.0.0.0:8000/ in your browser.

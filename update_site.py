@@ -107,4 +107,7 @@ def generate_site():
 
 
 if __name__ == "__main__":
-    generate_site()
+    try:
+        generate_site()
+    except KeyboardInterrupt:
+        exit(0)
