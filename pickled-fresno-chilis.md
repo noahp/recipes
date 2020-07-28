@@ -4,13 +4,13 @@
 
 ## Ingredients
 
-250g Fresno chilis, sliced thin or slit lengthwise
-25g garlic, smashed
-200ml distilled vinegar
-5g salt (10% vs. vinegar)
-1 tablespoon coriander seeds
-4 bay leaves
-10 g sugar (20% vs. vinegar)
+- 250g Fresno chilis, sliced thin or slit lengthwise
+- 25g garlic, smashed
+- 200ml distilled vinegar
+- 5g salt (10% vs. vinegar)
+- 1 tablespoon coriander seeds
+- 4 bay leaves
+- 10 g sugar (20% vs. vinegar)
 
 ## Directions
 
