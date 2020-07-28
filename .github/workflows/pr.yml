@@ -1,4 +1,4 @@
-name: main-ci
+name: PR Tests
 
 on:
   pull_request:
@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout v2, with recursive submodule update
+      - name: Checkout 🛎️
       - uses: actions/checkout@v2
         with:
           submodules: recursive
 
-      # build the Docker image we use to run the tests
-      - name: test.sh
+      # Build everything (in docker)
+      - name: Build 🔨
         run: ./test.sh
