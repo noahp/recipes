@@ -46,7 +46,7 @@ def get_index_lines(recipe_data):
     return index_entries
 
 
-INDEX_FORMAT = """# 🌮 recipes
+INDEX_FORMAT = """# 🌮 Recipes
 
 {}
 """
@@ -67,6 +67,7 @@ def generate_site():
     shutil.rmtree(f"./{SITE_DIR}", ignore_errors=True)
     os.makedirs(f"./{SITE_DIR}", exist_ok=True)
     shutil.copytree("./recipes", f"./{SITE_DIR}/recipes")
+    shutil.copytree("./recipes/pics", f"./{SITE_DIR}/pics")
     shutil.copy("./gh-fork-ribbon.css", f"./{SITE_DIR}/gh-fork-ribbon.css")
 
     # list of tuples of recipe info

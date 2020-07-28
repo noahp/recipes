@@ -18,9 +18,8 @@ sudo apt install entr
 # http server
 python3 -m http.server --directory public &
 
-# rebuild everything on any file change
+# rebuild everything on any file change (requires Docker)
 git ls-files | entr ./test.sh
 ```
 
 Now open http://0.0.0.0:8000/ in your browser.
-
