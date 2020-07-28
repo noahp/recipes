@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Update the README.md index, and output index.html and recipe.html in the
-./SITE_DIR/ directory.
+Generate an index.html and recipe.html files for each recipe in the ./SITE_DIR/
+directory.
 """
 
 import glob
@@ -9,8 +9,10 @@ import os
 import re
 import shutil
 import subprocess
-import sys
-from multiprocessing import Pool
+from datetime import datetime
+
+import pytz
+from pyrfc3339 import generate
 
 SITE_DIR = "public"
 
@@ -18,16 +20,16 @@ SITE_DIR = "public"
 def get_recipe_data():
     """glob the recipe dir and return the data"""
 
-    def shortname(x):
-        return os.path.splitext(os.path.split(x)[1])[0]
+    def shortname(name):
+        return os.path.splitext(os.path.split(name)[1])[0]
 
     mdfiles = [(shortname(x), x) for x in sorted(glob.glob("./recipes/*.md"))]
     for index, mdfile in enumerate(mdfiles):
         with open(mdfile[1], "r") as mdfileio:
             line = mdfileio.readline()
-            m = re.match(r"# ([^\w]+?) .*", line.strip())
-            if m:
-                emoji = m.group(1)
+            match = re.match(r"# ([^\w]+?) .*", line.strip())
+            if match:
+                emoji = match.group(1)
             else:
                 # fallback emoji
                 emoji = "📃"
@@ -38,81 +40,67 @@ def get_recipe_data():
 def get_index_lines(recipe_data):
     """get the index entries"""
     index_entry_template = "- [{} {}]({})"
-    index_entries = "\n".join([index_entry_template.format(*x) for x in recipe_data])
+    index_entries = "\n".join([index_entry_template.format(x[0], x[1], x[1]+".html") for x in recipe_data])
     return index_entries
 
 
-def update_index(infile_name, recipe_data):
-    """update the index file"""
+INDEX_FORMAT = """# 🌮 recipes
+
+{}
+"""
+
+
+def generate_index(recipe_data, outfile_name):
+    """generate the index file"""
     # make the entries
     index_entries = get_index_lines(recipe_data)
 
-    # insert between the start-end indicators
-    with open(infile_name, "r") as infile:
-        infiledata = infile.read()
-    match = re.match(
-        r"(.*<!-- start index -->).*(<!-- end index -->.*)",
-        infiledata,
-        re.DOTALL + re.MULTILINE,
-    )
-    assert match, "WTF"
-    infiledata = match.group(1) + "\n" + index_entries + "\n" + match.group(2)
-    with open(infile_name, "w") as infile:
-        infile.write(infiledata)
+    data = INDEX_FORMAT.format(index_entries)
+    with open(outfile_name, "w") as outfile:
+        outfile.write(data)
 
 
-def gen_recipe(cmdline_formatted):
-    # subprocess.check_call(cmdline_formatted, shell=True)
-    print(cmdline_formatted)
-
-
-def generate_site(readme, recipe_data):
+def generate_site():
     """output the site files"""
     shutil.rmtree(f"./{SITE_DIR}", ignore_errors=True)
     os.makedirs(f"./{SITE_DIR}", exist_ok=True)
     shutil.copytree("./recipes", f"./{SITE_DIR}/recipes")
     shutil.copy("./gh-fork-ribbon.css", f"./{SITE_DIR}/gh-fork-ribbon.css")
 
-    # .md->.html
-    shutil.copy("./README.md", f"./{SITE_DIR}/README.md")
-    with open(f"./{SITE_DIR}/README.md", "r") as infile:
-        data = infile.read()
-    data = re.sub(r"\./recipes/(.*)\.md", r"\g<1>.html", data)
-    with open(f"./{SITE_DIR}/README.md", "w") as infile:
-        infile.write(data)
+    # list of tuples of recipe info
+    recipe_data = get_recipe_data()
 
+    # gimme that sweet rfc3339 plz
+    rfc3339_now_str = generate(datetime.utcnow().replace(tzinfo=pytz.utc))
+
+    # index
+    generate_index(recipe_data, f"./{SITE_DIR}/README.md")
     recipe_data = recipe_data + [
         ("🌮", "index", "README.md"),
     ]
 
-    cmdline = 'yasha -o {site_dir}/{name}.html --shortname="{name}" --favicon="{emoji}" --pathname="{path}" recipe-template.html.j2'
+    cmdline = (
+        'yasha -o {site_dir}/{name}.html --shortname="{name}" '
+        '--favicon="{emoji}" --pathname="{path}" '
+        '--timestamp="{rfc3339_now_str}" recipe-template.html.j2'
+    )
 
+    # gnu parallel <_<
     cmdlines = "\n".join(
         [
-            cmdline.format(site_dir=SITE_DIR, emoji=emoji, name=name, path=path)
+            cmdline.format(
+                site_dir=SITE_DIR,
+                emoji=emoji,
+                name=name,
+                path=path,
+                rfc3339_now_str=rfc3339_now_str,
+            )
             for emoji, name, path in recipe_data
         ]
     )
 
     subprocess.check_call(f"parallel -I% % <<EOF\n{cmdlines}\nEOF", shell=True)
 
-    # for emoji, name, path in recipe_data:
-    #     gen_recipe(cmdline.format(emoji=emoji, name=name, path=path))
-
-    # with Pool(6) as p:
-    #     p.map(gen_recipe, (cmdline.format(emoji=emoji, name=name, path=path),))
-
-
-def main():
-    """main cli entrance point"""
-    infile_name = "README.md"
-
-    recipe_data = get_recipe_data()
-
-    update_index(infile_name, recipe_data)
-
-    generate_site(infile_name, recipe_data)
-
 
 if __name__ == "__main__":
-    main()
+    generate_site()
