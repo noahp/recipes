@@ -1,5 +1,3 @@
-
-
 # 🥞 Crepes
 
 [Original recipe](https://www.seriouseats.com/recipes/2017/03/basic-crepes-batter-recipe.html)
