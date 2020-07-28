@@ -84,7 +84,7 @@ def generate_site():
     cmdline = (
         'yasha -o {site_dir}/{name}.html --shortname="{name}" '
         '--favicon="{emoji}" --pathname="{path}" '
-        '--timestamp="{rfc3339_now_str}" recipe-template.html.j2'
+        '--timestamp="{rfc3339_now_str}" --isindex={isindex} recipe-template.html.j2'
     )
 
     # gnu parallel <_<
@@ -96,6 +96,7 @@ def generate_site():
                 name=name,
                 path=path,
                 rfc3339_now_str=rfc3339_now_str,
+                isindex=(name == "index"),
             )
             for emoji, name, path in recipe_data
         ]
