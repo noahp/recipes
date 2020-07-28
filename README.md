@@ -9,17 +9,14 @@ See the formatted result at https://noahpendleton.com/recipes/ .
 I wrote the world's worst static site gen. Could've probably been bash tbh, but
 wrote it in python out of sheer laziness.
 
-For testing the site gen, you might do the following:
+For testing the site gen, you might do the following (requires Docker):
 
 ```bash
-# janky file watcher
-sudo apt install entr
+# file watcher
+cargo install watchexec
 
-# http server
-python3 -m http.server --directory public &
-
-# rebuild everything on any file change (requires Docker)
-git ls-files | entr ./test.sh
+# rebuild everything on any file change and serve it with python
+watchexec -s SIGKILL "./test.sh && python3 -m http.server --directory public"
 ```
 
 Now open http://0.0.0.0:8000/ in your browser.
