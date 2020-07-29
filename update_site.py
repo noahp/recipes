@@ -121,6 +121,7 @@ def generate_site():
     shutil.copytree("./recipes", f"./{SITE_DIR}/recipes")
     shutil.copytree("./recipes/pics", f"./{SITE_DIR}/pics")
     shutil.copy("./gh-fork-ribbon.css", f"./{SITE_DIR}/gh-fork-ribbon.css")
+    shutil.copy("./styles.css", f"./{SITE_DIR}/styles.css")
 
     # list of tuples of recipe info
     recipe_data = get_recipe_data()
