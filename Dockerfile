@@ -26,7 +26,7 @@ ENV PATH /home/${UNAME}/.local/bin:$PATH
 
 # Install these in the base conda env
 RUN pip3 install --user \
-    pyRFC3339==1.1 \
-    yasha==4.3
+    jinja2==2.11.2 \
+    pyRFC3339==1.1
 
 WORKDIR /mnt/workspace
