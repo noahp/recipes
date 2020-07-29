@@ -14,43 +14,16 @@
   <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
 
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap);
-    @import url("gh-fork-ribbon.css");
-
-    h1,
-    h2,
-    h3 {
-      font-family: 'Open Sans';
-      font-weight: 700;
-      color: rgb(51, 51, 51);
-    }
-
-    body {
-      font-family: 'Open Sans';
-      color: rgb(51, 51, 51);
-      box-sizing: border-box;
-      min-width: 200px;
-      max-width: 980px;
-      /* margin: 5px 10px auto 10px; */
-    }
-
-    footer {
-      font-size: 12px;
-      font-style: italic;
-      color: rgb(100, 100, 100)
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <zero-md src="./recipes/dutch-baby.md"></zero-md>
+  <zero-md css-urls='["styles.css"]' src="./recipes/dutch-baby.md"></zero-md>
+  <!-- <zero-md src="./recipes/dutch-baby.md"></zero-md> -->
 
-
-  <hr />
 
   <footer>
-    <p>generated on 2020-07-29T00:26:27Z</p>
+    <p>generated on 2020-07-29T15:21:57Z</p>
   </footer>
 </body>
 
