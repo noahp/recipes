@@ -8,25 +8,28 @@ import glob
 import os
 import re
 import shutil
-import subprocess
+import sys
 from datetime import datetime
 
 import pytz
+import yaml
 from jinja2 import Environment, FileSystemLoader
 from pyrfc3339 import generate
 
-SITE_DIR = "public"
 
-
-def get_recipe_data():
+def get_recipe_data(source_dir):
     """glob the recipe dir and return the data"""
 
     def shortname(name):
         return os.path.splitext(os.path.split(name)[1])[0]
 
-    mdfiles = [(shortname(x), x) for x in sorted(glob.glob("./recipes/*.md"))]
-    for index, mdfile in enumerate(mdfiles):
-        with open(mdfile[1], "r") as mdfileio:
+    mdfiles = [
+        (shortname(x), x) for x in sorted(glob.glob(os.path.join(source_dir, "*.md")))
+    ]
+    output = []
+    # load emoji from leading non-alphanumeric string component, or default
+    for mdfilename, mdfile in mdfiles:
+        with open(mdfile, "r") as mdfileio:
             line = mdfileio.readline()
             match = re.match(r"# ([^\w]+?) .*", line.strip())
             if match:
@@ -34,8 +37,8 @@ def get_recipe_data():
             else:
                 # fallback emoji
                 emoji = "📃"
-            mdfiles[index] = (emoji, mdfile[0], mdfile[1])
-    return mdfiles
+            output.append((emoji, mdfilename, os.path.basename(mdfile)))
+    return output
 
 
 def get_index_lines(recipe_data):
@@ -63,46 +66,19 @@ def generate_index(recipe_data, outfile_name):
         outfile.write(data)
 
 
-## yasha command line render... slow though
-# def render(recipe_data, rfc3339_now_str):
-#     """render with yasha command line"""
-#     cmdline = (
-#         'yasha -o {site_dir}/{name}.html --shortname="{name}" '
-#         '--favicon="{emoji}" --pathname="{path}" '
-#         '--timestamp="{rfc3339_now_str}" --isindex={isindex} recipe-template.html.j2'
-#     )
-#
-#     # gnu parallel <_<
-#     cmdlines = "\n".join(
-#         [
-#             cmdline.format(
-#                 site_dir=SITE_DIR,
-#                 emoji=emoji,
-#                 name=name,
-#                 path=path,
-#                 rfc3339_now_str=rfc3339_now_str,
-#                 isindex=(name == "index"),
-#             )
-#             for emoji, name, path in recipe_data
-#         ]
-#     )
-#
-#     subprocess.check_call(f"parallel -I% % <<EOF\n{cmdlines}\nEOF", shell=True)
-
-
-def render(recipe_data, rfc3339_now_str):
+def render(output_dir, recipe_data, rfc3339_now_str):
     """render recipe data into jinja template"""
     # Capture our current directory
-    THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+    this_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Create the jinja2 environment.
     # Notice the use of trim_blocks, which greatly helps control whitespace.
     j2_env = Environment(
-        loader=FileSystemLoader(THIS_DIR), trim_blocks=True, lstrip_blocks=True
+        loader=FileSystemLoader(this_dir), trim_blocks=True, lstrip_blocks=True
     )
 
     for emoji, name, path in recipe_data:
-        with open(f"{SITE_DIR}/{name}.html", "w") as outfile:
+        with open(f"{output_dir}/{name}.html", "w") as outfile:
             outfile.write(
                 j2_env.get_template("recipe-template.html.j2").render(
                     favicon=emoji,
@@ -114,32 +90,47 @@ def render(recipe_data, rfc3339_now_str):
             )
 
 
-def generate_site():
+def copy_r(src, dst):
+    """copy recursively file or directory"""
+    if dst_dir := os.path.dirname(dst):
+        os.makedirs(dst_dir, exist_ok=True)
+    if os.path.isdir(src):
+        copier = lambda src, dst: shutil.copytree(src, dst, dirs_exist_ok=True)
+    else:
+        copier = shutil.copy
+    copier(src, dst)
+
+
+def generate_site(config, output_dir):
     """output the site files"""
-    shutil.rmtree(f"./{SITE_DIR}", ignore_errors=True)
-    os.makedirs(f"./{SITE_DIR}", exist_ok=True)
-    shutil.copytree("./recipes", f"./{SITE_DIR}/recipes")
-    shutil.copytree("./recipes/pics", f"./{SITE_DIR}/pics")
-    shutil.copy("./gh-fork-ribbon.css", f"./{SITE_DIR}/gh-fork-ribbon.css")
-    shutil.copy("./styles.css", f"./{SITE_DIR}/styles.css")
+    shutil.rmtree(output_dir, ignore_errors=True)
+
+    copy_r(config["static-dir"], output_dir)
+    copy_r(config["source-dir"], output_dir)
 
     # list of tuples of recipe info
-    recipe_data = get_recipe_data()
+    recipe_data = get_recipe_data(config["source-dir"])
 
     # gimme that sweet rfc3339 plz
     rfc3339_now_str = generate(datetime.utcnow().replace(tzinfo=pytz.utc))
 
     # index
-    generate_index(recipe_data, f"./{SITE_DIR}/README.md")
+    generate_index(recipe_data, f"./{output_dir}/README.md")
     recipe_data = recipe_data + [
         ("🌮", "index", "README.md"),
     ]
 
-    render(recipe_data, rfc3339_now_str)
+    # render the template for each file in recipe_data
+    render(output_dir, recipe_data, rfc3339_now_str)
+
+
+def load_config():
+    """load site config"""
+    with open("site.yaml", "r") as configfile:
+        return yaml.load(configfile, Loader=yaml.Loader)
 
 
 if __name__ == "__main__":
-    try:
-        generate_site()
-    except KeyboardInterrupt:
-        exit(0)
+    output_dir = sys.argv[1] if len(sys.argv) > 1 else "public"
+    cfg = load_config()
+    generate_site(cfg, output_dir)

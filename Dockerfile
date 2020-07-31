@@ -17,15 +17,12 @@ RUN useradd --uid $UID --create-home --user-group ${UNAME} && \
 
 USER ${UNAME}
 
-# Install Conda
-# Copied from continuumio/miniconda3
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 ENV PATH /home/${UNAME}/.local/bin:$PATH
 
 # Install these in the base conda env
-RUN pip3 install --user \
-    jinja2==2.11.2 \
-    pyRFC3339==1.1
+COPY requirements.txt /tmp/requirements.txt
+RUN pip3 install --user -r /tmp/requirements.txt
 
 WORKDIR /mnt/workspace
