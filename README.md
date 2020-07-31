@@ -10,6 +10,7 @@
 - [🥠 egg-rolls](egg-rolls.html)
 - [🌽 elote-street-corn](elote-street-corn.html)
 - [🍞 english-muffins](english-muffins.html)
+- [🧆 falafel](falafel.html)
 - [🥙 garlic-naan](garlic-naan.html)
 - [🥚 hard-boiled-eggs](hard-boiled-eggs.html)
 - [🌭 kabanosy](kabanosy.html)
