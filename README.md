@@ -1,5 +1,6 @@
 # 🌮 Recipes
 
+- [🌭 andouille-sausage](andouille-sausage.html)
 - [🍲 beef-stew](beef-stew.html)
 - [🍩 beignets](beignets.html)
 - [🍛 butter-chicken](butter-chicken.html)
