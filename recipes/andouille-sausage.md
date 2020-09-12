@@ -7,7 +7,7 @@
 - 1000g pork butt (2.2 lbs)
 - 13g kosher salt (2 heaping tsp)
 - 2 1/2g Cure #1 (1/2 tsp, level)
-- 10ggarlic (3 cloves, pressed)
+- 10g garlic (3 cloves, pressed)
 - 5g black pepper (2 1/2 tsp, cracked)
 - 4g cayenne pepper (2 tsp)
 - 100g cold water (1/4 cup)
