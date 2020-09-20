@@ -18,4 +18,5 @@
 - [🐚 madelines](madelines.html)
 - [🍕 ny-pizza](ny-pizza.html)
 - [🌶️ pickled-fresno-chilis](pickled-fresno-chilis.html)
+- [🧁 popovers](popovers.html)
 - [🍉 watermelon-feta-salad](watermelon-feta-salad.html)
