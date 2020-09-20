@@ -6,6 +6,8 @@ interior but not the classic gigantic puffballs*
 [Original
 recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
 
+![muffins](./pics/popovers.jpg)
+
 ## Ingredients
 
 - 3 tablespoons melted butter, plus more for greasing pan
