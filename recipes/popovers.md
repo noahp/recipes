@@ -1,4 +1,7 @@
-# 🧁 Popovers
+# 🧁 Popover muffins
+
+*These are more muffin-like in shape and size, still with a good popover
+interior but not the classic gigantic puffballs*
 
 [Original
 recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
