@@ -3,6 +3,7 @@
 - [🌭 andouille-sausage](andouille-sausage.html)
 - [🍲 beef-stew](beef-stew.html)
 - [🍩 beignets](beignets.html)
+- [🍜 bibimbap](bibimbap.html)
 - [🍛 butter-chicken](butter-chicken.html)
 - [🌶️ chili-crisp](chili-crisp.html)
 - [🥞 crepes](crepes.html)
