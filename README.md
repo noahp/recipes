@@ -18,6 +18,7 @@
 - [🌭 kabanosy](kabanosy.html)
 - [🐚 madelines](madelines.html)
 - [🍕 ny-pizza](ny-pizza.html)
+- [🥓 pancetta](pancetta.html)
 - [🌶️ pickled-fresno-chilis](pickled-fresno-chilis.html)
 - [🧁 popover-muffins](popover-muffins.html)
 - [🍉 watermelon-feta-salad](watermelon-feta-salad.html)
