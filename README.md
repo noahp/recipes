@@ -17,6 +17,7 @@
 - [🥚 hard-boiled-eggs](hard-boiled-eggs.html)
 - [🌭 kabanosy](kabanosy.html)
 - [🐚 madelines](madelines.html)
+- [🍪 moms-cookies](moms-cookies.html)
 - [🍕 ny-pizza](ny-pizza.html)
 - [🥓 pancetta](pancetta.html)
 - [🌶️ pickled-fresno-chilis](pickled-fresno-chilis.html)
