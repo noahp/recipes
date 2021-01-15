@@ -23,3 +23,5 @@
 - [🌶️ pickled-fresno-chilis](pickled-fresno-chilis.html)
 - [🧁 popover-muffins](popover-muffins.html)
 - [🍉 watermelon-feta-salad](watermelon-feta-salad.html)
+---
+- [🛠️ cooking equipment](cooking-equipment.html)
