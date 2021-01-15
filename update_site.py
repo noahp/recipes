@@ -59,11 +59,17 @@ INDEX_FORMAT = """# 🌮 Recipes
 def generate_index(recipe_data, outfile_name):
     """generate the index file"""
     # make the entries
+    recipe_data = filter(lambda x: "cooking-equipment" not in x, recipe_data)
     index_entries = get_index_lines(recipe_data)
 
     data = INDEX_FORMAT.format(index_entries)
     with open(outfile_name, "w") as outfile:
         outfile.write(data)
+
+        # write a line for the cooking equipment list
+        outfile.write("---\n")
+        outfile.write("- [{} {}]({})".format("🛠️", "cooking equipment", "cooking-equipment.html"))
+        outfile.write("\n")
 
 
 def render(output_dir, recipe_data, rfc3339_now_str):
