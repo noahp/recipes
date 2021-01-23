@@ -14,6 +14,7 @@
 - [🍞 english-muffins](english-muffins.html)
 - [🧆 falafel](falafel.html)
 - [🥙 garlic-naan](garlic-naan.html)
+- [🍔 hamburger-buns](hamburger-buns.html)
 - [🥚 hard-boiled-eggs](hard-boiled-eggs.html)
 - [🌭 kabanosy](kabanosy.html)
 - [🐚 madelines](madelines.html)
