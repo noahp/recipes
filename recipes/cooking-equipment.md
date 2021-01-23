@@ -10,7 +10,7 @@
    *cook long pasta in it!*
 
 - [12" stainless
-  skillet]([todo](https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/))
+  skillet](https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/)
 
    *saute dishes etc*
 
@@ -105,7 +105,7 @@
 
 - [immersion blender](https://www.amazon.com/Mueller-Austria-Ultra-Stick-Multi-Purpose-Attachment/dp/B075X1KPLZ)
 
-   *sauuces, mayonnaise*
+   *sauces, mayonnaise*
 
 - [citrus juicer](todo)
 
@@ -137,6 +137,10 @@ chef's knife for me.
 
 That's it. That's all you need for knives.
 
+The advice on cutting boards here is spot on (at least 1 large wooden, 12"x18"
+or bigger, and 2-3 small wooden or plastic):
+https://tylertringas.com/cooking-for-founders/
+
 ## Storage
 
 - [deli
@@ -145,3 +149,32 @@ That's it. That's all you need for knives.
    these are super. they all use the same lids, nest compactly, leakproof, clear
    so you can tell what's in them. cheap. reusable. you can toss them if they
    break.
+
+## Exotics
+
+This is stuff I use less frequently but is handy.
+
+- [spice
+  grinder](https://www.amazon.com/Grinder-capacity-Electric-Catcher-stainless/dp/B08HK6VCXP)
+
+   *I have a model sortof similar to this one. I use it when grinding whole
+   toasted sichuan peppercorn, toasted whole spices for indian food, etc*
+
+- [molcajete](https://www.amazon.com/gp/product/B001AVREHA)
+
+   *guacamole tastes better out of it, might be all in my head though 😅 also
+   useful for making aioli and pesto*
+
+- stand mixer
+
+   *I use this pretty rarely but it is useful when making enriched doughs like
+   brioche*
+
+- food processor
+
+   *also pretty rarely used, but great for pesto or lazy biscuits, breadcrumbs*
+
+- cooking chopsticks
+
+   *these are handy for stirring and moving stuff when tongs are a little too
+   hefty. cheap to have around. I don't use mine as much as I should!*
