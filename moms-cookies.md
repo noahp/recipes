@@ -1,9 +1,11 @@
-# 🍪 Mom's Cookies           
+# 🍪 Mom's Cookies
 
 ## Makes
+
 2 dozen
 
 ## Ingredients
+
 - 1/2 cup butter, softened
 - 1/2 cup brown sugar
 - 1/2 cup white sugar
@@ -17,7 +19,9 @@
 - 1/4 or so each of sunflower seeds, chopped walnuts, raisins, rolled oats
 
 ## Directions
+
 1. Cream butter and sugars. Add egg and yogurt.
-2. Add flours, soda and salt. Add all the xtras.  
-3. Drop by spoonfuls onto a cookie sheet.  
-4. Bake at 350-375 depending on how hot your oven is for 8 minutes or until done.  Eat!
+2. Add flours, soda and salt. Add all the xtras.
+3. Drop by spoonfuls onto a cookie sheet.
+4. Bake at 350-375 depending on how hot your oven is for 8 minutes or until
+   done.  Eat!
