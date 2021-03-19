@@ -111,10 +111,34 @@
 
 - [large mortar and pestle](todo)
 
+- [whisk](https://www.webstaurantstore.com/14-stainless-steel-piano-whip-whisk/92247034.html)
+
+   a nice big piano wire whisk, 12 or 14", handy for mixing dry or wet
+   ingredients
+
+- [rolling pin](https://www.webstaurantstore.com/13-wooden-rolling-pin/407ROLLPNW13.html)
+
+   nothing fancy, but necessary for making laminated doughs (pie crusts,
+   biscuits, pastries). i end up using my [french style rolling
+   pin](https://www.webstaurantstore.com/ateco-20175-20-maple-wood-tapered-french-rolling-pin/14420175.html)
+   more often tbh (easier to clean, more durable)
+
+- [metal ladle](https://www.webstaurantstore.com/4-oz-one-piece-stainless-steel-ladle/92246814.html)
+
+   useful for serving soups / stews / chili portions. also can be used for wok
+   cooking, pancakes
+
 ## Prep
 
 The references list is spot on for this stuff:
 https://tylertringas.com/cooking-for-founders/
+
+Some additions:
+
+- [large pourable
+  container](https://www.webstaurantstore.com/anchor-hocking-81605ahg18-2-qt-glass-measuring-cup/55081605A.html)
+
+   i use this for pancakes + madelines + popovers. saves cleaning an extra bowl
 
 ## Knives
 
