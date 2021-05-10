@@ -63,7 +63,7 @@
 
    *so useful. pancakes, stirring vegetables, cooking eggs, etc*
 
-- [1-2 big wooden spoons](https://www.amazon.com/OXO-Grips-Large-Wooden-Spoon/dp/B0000CCY1R)
+- [1-2 big wooden spoons](https://www.webstaurantstore.com/tablecraft-w12-12-beechwood-wooden-spoon/40712WOOD.html)
 
    *stirring stuff, tasting*
 
