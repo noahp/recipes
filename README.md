@@ -19,6 +19,7 @@
 - [🌭 kabanosy](kabanosy.html)
 - [🐚 madelines](madelines.html)
 - [🍪 moms-cookies](moms-cookies.html)
+- [🥒 moms-pickles](moms-pickles.html)
 - [🍕 ny-pizza](ny-pizza.html)
 - [🥓 pancetta](pancetta.html)
 - [🌶️ pickled-fresno-chilis](pickled-fresno-chilis.html)
