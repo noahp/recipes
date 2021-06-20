@@ -1,3 +1,3 @@
 # 🥒 Mom's Pickles
 
-![recipe image dot jpeg](pics/moms-pickles.jpeg)
+<img src="pics/moms-pickles.jpeg" alt="drawing" style="max-width:100%;"/>
