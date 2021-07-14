@@ -1,8 +1,0 @@
-# location of the input .md files
-source-dir: recipes
-
-# any static files that should be copied into the output directory
-static-dir: static
-
-# template used to render each .md file and the index
-template: recipe-template.html.j2
