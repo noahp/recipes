@@ -60,7 +60,6 @@ All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.
     });
 </script>
 
-
 ## Directions
 
 Multiply the meat by the percentages of spices.

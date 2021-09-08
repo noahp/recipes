@@ -20,10 +20,10 @@ This will make enough dough for 2-3x 10" pizzas, I'm guessing
 2. add yeast and salt, mix thoroughly. put in the fridge overnight, or up to 2-3
    days
 
-<a name="flour-note"></a>*Flour note: ideally type 0 or 00; or anything with
-  ~12% protein and fine mill. I've had good results with general purpose like
-  KAF's [Select Artisan](https://www.kingarthurflour.com/pro/products). You can
-  also use all-purpose or bread flour for just fine results too.*
+<a name="flour-note"></a>_Flour note: ideally type 0 or 00; or anything with
+~12% protein and fine mill. I've had good results with general purpose like
+KAF's [Select Artisan](https://www.kingarthurflour.com/pro/products). You can
+also use all-purpose or bread flour for just fine results too._
 
 ### Pizza sauce
 

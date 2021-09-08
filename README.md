@@ -20,6 +20,9 @@ You can also use these commands to serve the book from docker, without
 installing anything locally (requires docker-compose):
 
 ```bash
-# build and run
-DOCKER_USER="$(id -u):$(id -g)" docker-compose up --build
+# mdbook serve until ctrl+c
+DOCKER_USER="$(id -u):$(id -g)" docker-compose run mdbook
+
+# to just build into ./book/ and exit
+DOCKER_USER="$(id -u):$(id -g)" MDBOOK_JUST_BUILD=1 docker-compose run mdbook
 ```

@@ -31,7 +31,7 @@
 10. Refrigerate after cooling down. Keep wrapped in butcher's paper for best
     results.
 
-*Notes: You may also poach Andouille after smoking in water at 170F-175F until
-the internal temperature reaches 154F  - 158F, about 20 minutes. Alternatively,
+_Notes: You may also poach Andouille after smoking in water at 170F-175F until
+the internal temperature reaches 154F - 158F, about 20 minutes. Alternatively,
 you can steam or cook in the oven with convection to finish cooking. Another
-option is to refrigerate it as is and cook as part of a dish, like gumbo.*
+option is to refrigerate it as is and cook as part of a dish, like gumbo._

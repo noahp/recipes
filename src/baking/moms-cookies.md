@@ -24,4 +24,4 @@
 2. Add flours, soda and salt. Add all the xtras.
 3. Drop by spoonfuls onto a cookie sheet.
 4. Bake at 350-375 depending on how hot your oven is for 8 minutes or until
-   done.  Eat!
+   done. Eat!

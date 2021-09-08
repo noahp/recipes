@@ -20,4 +20,3 @@ jobs:
       - name: Build 🔨
         run: |
           DOCKER_USER="$(id -u):$(id -g)" MDBOOK_JUST_BUILD=1 docker-compose run mdbook
-

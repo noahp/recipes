@@ -2,12 +2,12 @@
 
 [Original recipe](https://www.seriouseats.com/recipes/2020/09/bibimbap.html)
 
-*Note: definitely sub in whatever ingredients you like! this is just a rough
-idea of what this dish can be*
+_Note: definitely sub in whatever ingredients you like! this is just a rough
+idea of what this dish can be_
 
 ## Ingredients
 
-*About 3 servings*
+_About 3 servings_
 
 ### Basic ingredients
 
@@ -31,7 +31,7 @@ idea of what this dish can be*
 #### Condiments (optional but recommended)
 
 - gochujang sauce VERY DELICIOUS, or chili garlic/hot sauce, hoisin sauce, chili
-crisp, siracha, whatever your preference!
+  crisp, siracha, whatever your preference!
 - cilantro or parsley for garnish
 - toasted sesame seeds
 
