@@ -44,7 +44,8 @@ if __name__ == "__main__":
     if not sys.stdin.isatty():
         import json
         data = sys.stdin.read()
-        print(data, file=sys.stderr)
+        # debug print what mdbook passes out on stderr
+        # print(data, file=sys.stderr)
         if data:
             context, book = json.loads(data)
             json.dump(book, sys.stdout)

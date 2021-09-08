@@ -5,5 +5,20 @@ multilingual = false
 src = "src"
 title = "Recipes"
 
-# [preprocessor.generate_summary]
-# command = "python3 generate-summary.py"
+
+[preprocessor.generate_summary]
+# this hook generates the src/SUMMARY.md file when it runs. mdbook loads the
+# file first before running preprocessor hooks like this; the way the
+# preprocessor hooks are supposed to work, i'd generate the SUMMARY.md data and
+# insert it into the JSON data (which is substituting a fair chunk of what
+# mdbook does when scooping up the source content).
+#
+# insted, i'm just using it as a spot to cough out the src/SUMMARY.md file every
+# time mdbook rebuilds (eg when doing 'serve' and detecting file changes). this
+# means that the SUMMARY.md file will always be 1 generation behind. in practice
+# it's not too janky when i'm adding a file, so long as i trigger 1 extra mdbook
+# build cycle after adding a new file.
+#
+# the CI stuff uses the wrapper.sh script to pre-warm SUMMARY.md by running the
+# script once before starting mdbook.
+command = "python3 generate-summary.py"
