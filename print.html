@@ -1,0 +1,1348 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Recipes</title>
+        <meta name="robots" content="noindex" />
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Readme</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> baking</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="baking/beignets.html"><strong aria-hidden="true">1.1.</strong> beignets</a></li><li class="chapter-item expanded "><a href="baking/english-muffins.html"><strong aria-hidden="true">1.2.</strong> english-muffins</a></li><li class="chapter-item expanded "><a href="baking/garlic-naan.html"><strong aria-hidden="true">1.3.</strong> garlic-naan</a></li><li class="chapter-item expanded "><a href="baking/hamburger-buns.html"><strong aria-hidden="true">1.4.</strong> hamburger-buns</a></li><li class="chapter-item expanded "><a href="baking/madelines.html"><strong aria-hidden="true">1.5.</strong> madelines</a></li><li class="chapter-item expanded "><a href="baking/moms-cookies.html"><strong aria-hidden="true">1.6.</strong> moms-cookies</a></li><li class="chapter-item expanded "><a href="baking/popover-muffins.html"><strong aria-hidden="true">1.7.</strong> popover-muffins</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> mains</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="mains/beef-stew.html"><strong aria-hidden="true">2.1.</strong> beef-stew</a></li><li class="chapter-item expanded "><a href="mains/bibimbap.html"><strong aria-hidden="true">2.2.</strong> bibimbap</a></li><li class="chapter-item expanded "><a href="mains/butter-chicken.html"><strong aria-hidden="true">2.3.</strong> butter-chicken</a></li><li class="chapter-item expanded "><a href="mains/crepes.html"><strong aria-hidden="true">2.4.</strong> crepes</a></li><li class="chapter-item expanded "><a href="mains/dutch-baby.html"><strong aria-hidden="true">2.5.</strong> dutch-baby</a></li><li class="chapter-item expanded "><a href="mains/falafel.html"><strong aria-hidden="true">2.6.</strong> falafel</a></li><li class="chapter-item expanded "><a href="mains/ny-pizza.html"><strong aria-hidden="true">2.7.</strong> ny-pizza</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> misc</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="misc/cooking-equipment.html"><strong aria-hidden="true">3.1.</strong> cooking-equipment</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> preserves</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="preserves/andouille-sausage.html"><strong aria-hidden="true">4.1.</strong> andouille-sausage</a></li><li class="chapter-item expanded "><a href="preserves/chili-crisp.html"><strong aria-hidden="true">4.2.</strong> chili-crisp</a></li><li class="chapter-item expanded "><a href="preserves/kabanosy.html"><strong aria-hidden="true">4.3.</strong> kabanosy</a></li><li class="chapter-item expanded "><a href="preserves/kielbasa.html"><strong aria-hidden="true">4.4.</strong> kielbasa</a></li><li class="chapter-item expanded "><a href="preserves/moms-pickles.html"><strong aria-hidden="true">4.5.</strong> moms-pickles</a></li><li class="chapter-item expanded "><a href="preserves/pancetta.html"><strong aria-hidden="true">4.6.</strong> pancetta</a></li><li class="chapter-item expanded "><a href="preserves/pickled-fresno-chilis.html"><strong aria-hidden="true">4.7.</strong> pickled-fresno-chilis</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> sides</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="sides/crispy-potatoes.html"><strong aria-hidden="true">5.1.</strong> crispy-potatoes</a></li><li class="chapter-item expanded "><a href="sides/egg-rolls.html"><strong aria-hidden="true">5.2.</strong> egg-rolls</a></li><li class="chapter-item expanded "><a href="sides/elote-street-corn.html"><strong aria-hidden="true">5.3.</strong> elote-street-corn</a></li><li class="chapter-item expanded "><a href="sides/hard-boiled-eggs.html"><strong aria-hidden="true">5.4.</strong> hard-boiled-eggs</a></li><li class="chapter-item expanded "><a href="sides/watermelon-feta-salad.html"><strong aria-hidden="true">5.5.</strong> watermelon-feta-salad</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Recipes</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="recipes"><a class="header" href="#recipes">Recipes</a></h1>
+<p>Collection of cooking recipes I've been using over the years.</p>
+<p>Recipes are split into categories, see the side bar (☰) for table of contents!</p>
+<p>Source for this website is here:</p>
+<p>https://github.com/noahp/recipes</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-beignets"><a class="header" href="#-beignets">🍩 Beignets</a></h1>
+<p><a href="https://www.kingarthurflour.com/recipes/classic-beignets-recipe">Original
+recipe</a></p>
+<h2 id="ingredients"><a class="header" href="#ingredients">Ingredients</a></h2>
+<ul>
+<li>1/2 cup (113g) lukewarm water</li>
+<li>1/2 cup (113g) lukewarm milk</li>
+<li>2 tablespoons (28g) butter, melted</li>
+<li>1 large egg</li>
+<li>1 teaspoon vanilla extract</li>
+<li>1/4 cup (50g) granulated sugar</li>
+<li>2 teaspoons salt</li>
+<li>4 cups (482g) all-purpose flour</li>
+<li>2 teaspoons instant yeast</li>
+<li>peanut/canola oil for frying</li>
+</ul>
+<h2 id="directions"><a class="header" href="#directions">Directions</a></h2>
+<ol>
+<li>combine everything, knead until you have a soft, smooth dough</li>
+<li>cover and let rise for an hour</li>
+<li>put in a greased bowl or bag in the refrigerator overnight, or up to 2 days</li>
+<li>remove from refrigerator, roll into a rough rectangle. aim for about
+1/4&quot;-3/8&quot; thick.</li>
+<li>cut the dough into 2&quot; squares.</li>
+<li>pour frying oil to a depth of about 3/4&quot; into a heavy bottomed frying pan</li>
+<li>eat the oil to 360°F, and drop 5 or 6 squares of dough into the hot oil.
+they'll sink to the bottom, then after about 5 seconds or so, rise to the
+top.</li>
+<li>fry the beignets for 1 minute, then use a pair of tongs to turn them over.
+fry for another minute, until the beignets are puffed and golden brown all
+over.</li>
+<li>remove from the oil (tongs) and drain on paper towels.</li>
+<li>when the beignets are cool, sprinkle them heavily with confectioners' sugar.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-english-muffins"><a class="header" href="#-english-muffins">🍞 English muffins</a></h1>
+<p><a href="https://www.kingarthurflour.com/recipes/english-muffins-recipe">Original
+recipe</a></p>
+<h2 id="ingredients-1"><a class="header" href="#ingredients-1">Ingredients</a></h2>
+<ul>
+<li>1 3/4 cups (397g) lukewarm milk</li>
+<li>3 tablespoons (43g) softened butter</li>
+<li>1 1/4 to 1 1/2 teaspoons salt, to taste</li>
+<li>2 tablespoons (25g) sugar</li>
+<li>1 large egg, lightly beaten</li>
+<li>4 1/2 cups (539g) King Arthur Unbleached Bread Flour</li>
+<li>2 teaspoons instant yeast</li>
+<li>semolina or corn meal, for sprinkling the griddle or pan</li>
+</ul>
+<h2 id="directions-1"><a class="header" href="#directions-1">Directions</a></h2>
+<ol>
+<li>combine all ingredients (except semolina/corn meal). stand mixer on low or
+hand mix until the dough is smooth and shiny, and coming away clean from the
+edof the bowl. let rise for 1-2 hrs.</li>
+<li>divide the dough into 16 pieces, shape each into a smooth ball, then flatten
+the balls until they're about 3&quot; to 3 1/2&quot; in diameter. cover and rest for 20
+minutes.</li>
+<li>sprinkle your griddle or cast iron/heavy bottom skillet thoroughly with the
+semolina/corn meal. cook the muffins over low heat for 7-15 minutes per side,
+until the crust is golden brown. instant read thermometer inserted into the
+middle should read 200F (throw them in the over at 350F if you need to finish
+them without over browning).</li>
+<li>when they're done cooking, let them cool. split with a fork when eating.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-garlic-naan"><a class="header" href="#-garlic-naan">🥙 Garlic Naan</a></h1>
+<p><a href="https://www.reddit.com/r/food/comments/d1a962/homemade_butter_chicken_with_garlic_naan/ezk2m4a/">Original recipe</a></p>
+<h2 id="ingredients-2"><a class="header" href="#ingredients-2">Ingredients</a></h2>
+<ul>
+<li>1/4 cup hot (not boiling) water</li>
+<li>1 tsp active dry yeast</li>
+<li>1 tbsp sugar</li>
+<li>3/4 cup warm milk</li>
+<li>4 cloves garlic, grated</li>
+<li>1 cup full fat Greek (or other thick) yogurt</li>
+<li>4 cups plain flour</li>
+<li>1,5 tsp baking powder</li>
+<li>1 tsp baking soda</li>
+<li>1/2 tsp salt</li>
+<li>2 cloves garlic, chopped</li>
+<li>3-4 tbsp butter</li>
+<li>Fresh coriander, roughly chopped</li>
+</ul>
+<h2 id="directions-2"><a class="header" href="#directions-2">Directions</a></h2>
+<ol>
+<li>Combine warm water, sugar and yeast and let stand for 10 min. until frothy.</li>
+<li>Combine flour, baking powder, baking soda and salt in a bowl and whisk
+together.</li>
+<li>Add the milk, yogurt and garlic to the yeast mixture and mix until combined.</li>
+<li>Add the flour mixture and stir. Knead with your hand until it just comes
+together.</li>
+<li>Cover with a damp cloth and leave for an hour or two until doubled in size.</li>
+<li>Divide into eight equal pieces. Heat up a pan to medium heat and add a little
+oil. Meanwhile roll out one piece of dough and drop it into the pan. Fry for
+a couple of min. until slightly browned on the bottom and puffed and bubbly
+on top. Turn and fry for another min. or so. Repeat with remaining pieces of
+dough. Wrap in a tea towel to keep warm.</li>
+<li>Add butter and garlic to a pan. Let the butter infuse for a couple of min.</li>
+<li>Brush the naan with the garlic butter and sprinkle coriander on top.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-hamburger-buns"><a class="header" href="#-hamburger-buns">🍔 Hamburger buns</a></h1>
+<p><a href="https://www.youtube.com/watch?v=gTGSUYMu6Ns">Original recipe</a></p>
+<h2 id="ingredients-3"><a class="header" href="#ingredients-3">Ingredients</a></h2>
+<h3 id="tangzhong"><a class="header" href="#tangzhong">Tangzhong</a></h3>
+<ul>
+<li>2 tablespoons (20g) bread flour</li>
+<li>2 tablespoons (27g) water</li>
+<li>4 tablespoons (60g) whole milk</li>
+</ul>
+<h3 id="dough"><a class="header" href="#dough">Dough</a></h3>
+<ul>
+<li>1/2 cup(120g) whole milk @ 95f (30c)</li>
+<li>1 tablespoons (9g) instant yeast</li>
+<li>2.5 cups (320g) Bread flour</li>
+<li>1 teaspoon (7g) fine sea salt</li>
+<li>2.5 tablespoons (35g) granulated sugar</li>
+<li>1 whole egg</li>
+<li>1 egg yolk</li>
+<li>3 tablespoons (42g) unsalted butter, softened</li>
+</ul>
+<h3 id="egg-wash"><a class="header" href="#egg-wash">Egg wash</a></h3>
+<ul>
+<li>
+<p>1 whole egg</p>
+</li>
+<li>
+<p>splash of whole milk</p>
+</li>
+<li>
+<p>couple of teaspoons of melted butter to brush with after baking</p>
+</li>
+</ul>
+<h2 id="directions-3"><a class="header" href="#directions-3">Directions</a></h2>
+<ol>
+<li>Make the tangzhong: add 2 tablespoons flour, 2 tablespoons water, and 4
+tablespoons whole milk to a medium saucepan and whisk together. Heat over
+medium heat while whisking until you get a consistency like mashed potatoes.
+Scoop out the tangzhong into a small ramiken or bowl and let cool</li>
+<li>Heat 1/2 cup whole milk to ~95F, and mix in 1 tablespoon instant yeast</li>
+<li>Add 2.5 cups bread flour + 1 teaspoon salt + 2.5 tablespoons sugar to a stand
+mixer bowl and whisk together.</li>
+<li>Turn the stand mixer on medium speed (2 on my kitchenaid) and pour in the
+milk-yeast mixture, then the tangzhong</li>
+<li>Add 1 whole egg and 1 egg yolk while the mixer is running</li>
+<li>Once that starts to come together, add 3 tablespoons softened butter, 1
+tablespoon at a time, until fully incorporated. Keep running the mixer for
+5-8 more minutes until the dough is well mixed and sticking together.</li>
+<li>Lightly flour a work surface, scoop out the dough. Fold the sides into the
+center, turn over, and tuck the dough around in a circle until you have a
+tight ball. Move into a lightly greased bowl, cover with a dish towel or
+sheet pan and let rise for 1-2 hrs</li>
+<li>Divide evenly into 6 even pieces, about 95-105 grams each.</li>
+<li>For each piece, same as before; stretch and tuck the sides into the center,
+flip over, and tuck around in a circle until a nice tight ball forms. Place
+them on a backing sheet on top of a silicone mat or parchment paper, spaced
+about 6&quot; apart. Cover with another baking sheet or pastic wrap and let rise
+for 1-2 hrs</li>
+<li>Brush the entire top side of each bun with the egg wash, then put into a
+375F over for 16-18 minutes, until deep golden brown.</li>
+<li>Brush with melted butter (optionally top with poppyseeds or sesame seeds).</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-madelines"><a class="header" href="#-madelines">🐚 Madelines</a></h1>
+<p><a href="https://www.allrecipes.com/recipe/9954/french-butter-cakes-madeleines/">Original
+recipe</a></p>
+<h2 id="ingredients-4"><a class="header" href="#ingredients-4">Ingredients</a></h2>
+<ul>
+<li>2 eggs</li>
+<li>3/4 teaspoon vanilla extract</li>
+<li>1/8 teaspoon salt</li>
+<li>1/3 cup white sugar</li>
+<li>1/2 cup all-purpose flour</li>
+<li>1 tablespoon lemon zest</li>
+<li>1/4 cup unsalted butter (1/2 stick)</li>
+</ul>
+<h2 id="directions-4"><a class="header" href="#directions-4">Directions</a></h2>
+<ol>
+<li>Preheat oven to 375 degrees F (190 degrees C).</li>
+<li>Melt butter and let cool to room temperature.</li>
+<li>In a small mixing bowl, beat eggs, vanilla and salt at high speed until
+light.</li>
+<li>Beating constantly, gradually add sugar; and continue beating at high speed
+until mixture is thick and pale and ribbons form in bowl when beaters are
+lifted, 5 to 10 minutes.</li>
+<li>Sift flour into egg mixture 1/3 at a time, gently folding after each
+addition.</li>
+<li>Add lemon zest and pour melted butter around edge of batter. Quickly but
+gently fold butter into batter. Spoon batter into molds; it will mound
+slightly above tops.</li>
+<li>Bake 14 to 17 minutes, or until cakes are golden and the tops spring back
+when gently pressed with your fingertip.</li>
+<li>Use the tip of the knife to loosen madeleines from pan; invert onto rack.
+Immediately sprinkle warm cookies with granulated sugar. Madeleines are best
+eaten the day they're baked. Leftover madeleines are wonderful when dunked
+into coffee or tea.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-moms-cookies"><a class="header" href="#-moms-cookies">🍪 Mom's Cookies</a></h1>
+<h2 id="makes"><a class="header" href="#makes">Makes</a></h2>
+<p>2 dozen</p>
+<h2 id="ingredients-5"><a class="header" href="#ingredients-5">Ingredients</a></h2>
+<ul>
+<li>1/2 cup butter, softened</li>
+<li>1/2 cup brown sugar</li>
+<li>1/2 cup white sugar</li>
+<li>1 egg</li>
+<li>spoonful of plain yogurt</li>
+<li>1 cup white flour</li>
+<li>1/4 cup whole wheat or rye flour</li>
+<li>1/2 tsp baking soda</li>
+<li>dash of salt</li>
+<li>1 cup chocolate chips</li>
+<li>1/4 or so each of sunflower seeds, chopped walnuts, raisins, rolled oats</li>
+</ul>
+<h2 id="directions-5"><a class="header" href="#directions-5">Directions</a></h2>
+<ol>
+<li>Cream butter and sugars. Add egg and yogurt.</li>
+<li>Add flours, soda and salt. Add all the xtras.</li>
+<li>Drop by spoonfuls onto a cookie sheet.</li>
+<li>Bake at 350-375 depending on how hot your oven is for 8 minutes or until
+done. Eat!</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-popover-muffins"><a class="header" href="#-popover-muffins">🧁 Popover muffins</a></h1>
+<p><em>These are more muffin-like in shape and size, still with a good popover
+interior but not the classic gigantic puffballs</em></p>
+<p><a href="https://www.seriouseats.com/recipes/2012/03/popover-recipe.html">Original
+recipe</a></p>
+<p><img src="baking/../pics/popovers.jpg" alt="muffins" /></p>
+<h2 id="ingredients-6"><a class="header" href="#ingredients-6">Ingredients</a></h2>
+<ul>
+<li>3 tablespoons melted butter, plus more for greasing pan</li>
+<li>1 1/2 cups whole milk</li>
+<li>4 eggs</li>
+<li>3/4 teaspoon salt</li>
+<li>1 1/2 cups all purpose flour</li>
+<li>2-3 tablespoons white granulated sugar (optional)</li>
+<li>1 teaspoon vanilla extract (optional)</li>
+</ul>
+<h2 id="directions-6"><a class="header" href="#directions-6">Directions</a></h2>
+<p><em>Note: if you have a large pourable container like a large pyrex, mix everything
+in there and you can pour directly into the muffin cups</em></p>
+<ol>
+<li>Preheat oven to 450°F. Grease popover pan well with butter.</li>
+<li>In a large bowl, whisk together milk, eggs, and salt (and optional sugar +
+vanilla extract). Whisk in butter. Add flour and whisk until smooth.</li>
+<li>Fill each cup 2/3 full with batter. Bake popovers until golden, 30 minutes.
+Let cool for 5 minutes in pan then turn out onto wire rack. Serve
+immediately.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-beef-stew"><a class="header" href="#-beef-stew">🍲 Beef Stew</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2016/01/all-american-beef-stew-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-7"><a class="header" href="#ingredients-7">Ingredients</a></h2>
+<ul>
+<li>4 cups homemade or store-bought low-sodium chicken stock (950mL)</li>
+<li>3 tablespoons tomato paste (2.5 ounces; 75g)</li>
+<li>1 tablespoon soy sauce (15ml)</li>
+<li>3 oil- or salt-packed anchovy filets, rinsed (or 1 tablespoon Asian fish sauce)</li>
+<li>1 tablespoon Worcestershire sauce (15ml)</li>
+<li>2 tablespoons vegetable oil</li>
+<li>3 pounds (1.25kg) whole boneless beef chuck roast, cut into 3 steaks</li>
+<li>Kosher salt and freshly ground black pepper</li>
+<li>10 ounces white button mushroom, quartered</li>
+<li>4 medium carrots (10 ounces; 275g), 2 left whole, 2 cut into bite-sized pieces</li>
+<li>8 ounces frozen or fresh pearl onions (thawed if frozen, peeled if fresh) (225g)</li>
+<li>1 large yellow onion, unpeeled, split in half (10 ounces; 275g)</li>
+<li>2 small stalks celery (3 ounces; 85g)</li>
+<li>3 medium cloves garlic, unpeeled</li>
+<li>1 cup sherry, dry vermouth, or red wine (8 ounces; 235mL)</li>
+<li>2 tablespoons flour (about 3/4 ounces 20g)</li>
+<li>2 bay leaves</li>
+<li>4 sprigs thyme</li>
+<li>1 pound Yukon gold potatoes, peeled and cubed (450g)</li>
+<li>4 ounces frozen peas</li>
+</ul>
+<h2 id="directions-7"><a class="header" href="#directions-7">Directions</a></h2>
+<ol>
+<li>Combine stock, tomato paste, soy sauce, anchovies, and Worcestershire sauce
+in a blender and blend on high speed until homogenous. Set aside.</li>
+<li>Adjust oven rack to lower position and preheat oven to 300°F. In a large
+Dutch oven, heat oil over medium-high heat until shimmering. Season beef all
+over with salt and pepper and add to Dutch oven. Cook, turning occasionally,
+until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a
+rimmed baking sheet or large plate and set aside.</li>
+<li>Add mushrooms to Dutch oven and cook, stirring, until liquid is released and
+mushrooms begin to brown, about 6 minutes, lowering heat as necessary to
+prevent scorching. Add diced carrots and pearl onions and cook, stirring,
+until well-browned on all sides. Season to taste with salt and pepper then
+transfer to a bowl and set aside.</li>
+<li>Add halved yellow onion to Dutch oven, cut-side-down. Add whole carrots,
+celery sticks, and garlic. Cook, turning carrots, celery, and garlic
+occasionally until all the vegetables are well-browned, about 4 minutes.</li>
+<li>Add wine or sherry, scrape up browned bits with a wooden spoon, and cook
+until reduced by 3/4, about 3 minutes. Add broth mixture and bring to a
+simmer. Remove from heat.</li>
+<li>Cut seared steaks into 1 1/2- to 2-inch chunks and transfer to a large bowl.
+Toss with flour. Add beef and any juices accumulated in the tray or plate to
+the Dutch oven along with bay leaves and thyme sprigs. Stir to combine and
+return to a simmer over medium heat. Transfer to oven, cover with lid
+partially open, and cook until beef is starting to become tender, about 1
+hour 30 minutes. Liquid should be at a slow, steady simmer the entire time.
+Adjust oven temperature if necessary during cooking.</li>
+<li>Remove stew from oven. Using tongs, fish out and discard carrot, celery,
+thyme, bay leaves, onion, and garlic. Add potatoes and reserved sautéed
+mushroom, pearl onions, and carrots to stew, return to oven, and continue to
+cook, partially covered, until beef, potatoes, and carrots are tender and
+broth has thickened, 45 minutes to 1 hour.</li>
+<li>Remove stew from oven. If necessary, place over a burner and simmer for up to
+15 minutes to reduce to desired consistency. Stir in peas. Season to taste
+with salt and pepper if necessary. Serve immediately, or let cool overnight
+or for up to 5 days and reheat to serve.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-bibimbap"><a class="header" href="#-bibimbap">🍜 Bibimbap</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2020/09/bibimbap.html">Original recipe</a></p>
+<p><em>Note: definitely sub in whatever ingredients you like! this is just a rough
+idea of what this dish can be</em></p>
+<h2 id="ingredients-8"><a class="header" href="#ingredients-8">Ingredients</a></h2>
+<p><em>About 3 servings</em></p>
+<h3 id="basic-ingredients"><a class="header" href="#basic-ingredients">Basic ingredients</a></h3>
+<ul>
+<li>1 cup rice</li>
+<li>3 eggs</li>
+<li>3 scallions cut into ~2&quot; pieces</li>
+<li>~6 ounces pork belly OR boneless chicken thighs OR chicken breast OR any pork,
+OR tofu, OR any beef, OR kielbasa/andouille/chorizo/bacon/pancetta</li>
+<li>1 carrot, cut into strips and sectioned into bite sized pieces</li>
+<li>1/4 cup cucumber sliced into bite sized pieces</li>
+</ul>
+<h3 id="saucemarinade"><a class="header" href="#saucemarinade">Sauce/marinade</a></h3>
+<ul>
+<li>3 tablespoons soy sauce (I like dark soy sauce, but any kind works!)</li>
+<li>~1/2 teaspoon corn starch</li>
+<li>1 teaspoon seasame oil</li>
+<li>1 teaspoon white granulated sugar</li>
+<li>(optional) 5-spice seasoning</li>
+<li>(optional) 1 tablespoon Shaoxing wine or sherry</li>
+</ul>
+<h4 id="condiments-optional-but-recommended"><a class="header" href="#condiments-optional-but-recommended">Condiments (optional but recommended)</a></h4>
+<ul>
+<li>gochujang sauce VERY DELICIOUS, or chili garlic/hot sauce, hoisin sauce, chili
+crisp, siracha, whatever your preference!</li>
+<li>cilantro or parsley for garnish</li>
+<li>toasted sesame seeds</li>
+</ul>
+<h2 id="directions-8"><a class="header" href="#directions-8">Directions</a></h2>
+<ol>
+<li>Load rice into rice cooker per directions.</li>
+<li>Slice the protein into bite-sized pieces.</li>
+<li>Mix the sauce ingredients, stirring thoroughly, and add the protein, mixing
+completely.</li>
+<li>Cut up the carrot and cucumber and scallions.</li>
+<li>Heat oil in a work or nonstick frying pan on high heat until shimmering and
+HOT</li>
+<li>Add the protein and cook, stirring occassionally, until done, maybe ~4-5
+minutes or less</li>
+<li>Remove protein, add more oil if necessary, reheat until HOT again.</li>
+<li>Crack in the eggs and fry, flipping once if you like. If there's room left in
+the pan, add the scallions too, or do them in a follow-up batch.</li>
+<li>Once rice is ready, start assembling:
+<ol>
+<li>Rice on the bottom</li>
+<li>Protein in a pile on one side</li>
+<li>Egg on one side</li>
+<li>Carrots and cucumbers on side #3</li>
+<li>Scallions in the last quadrant</li>
+</ol>
+</li>
+<li>Dress with whatever condiments you like!</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-butter-chicken-murgh-makhani"><a class="header" href="#-butter-chicken-murgh-makhani">🍛 Butter chicken (murgh makhani)</a></h1>
+<p><a href="https://www.reddit.com/r/food/comments/d1a962/homemade_butter_chicken_with_garlic_naan/ezk2m4a/">Original recipe</a></p>
+<h2 id="ingredients-9"><a class="header" href="#ingredients-9">Ingredients</a></h2>
+<h3 id="first-marinade"><a class="header" href="#first-marinade">First marinade</a></h3>
+<ul>
+<li>800g chicken, cut into bite-sized pieces. Use whatever you want; bone-in,
+boneless, thighs, breasts. I used boneless chicken thighs.</li>
+<li>2 tsp red chili powder</li>
+<li>1 tsp salt</li>
+<li>1 tbsp lemon juice</li>
+</ul>
+<h3 id="second-marinade"><a class="header" href="#second-marinade">Second marinade</a></h3>
+<ul>
+<li>120g Greek (or other thick) yogurt</li>
+<li>5 cloves garlic, turned into a paste</li>
+<li>1 inch ginger, turned into a paste</li>
+<li>1 tbsp oil</li>
+<li>1 tsp ground cumin</li>
+<li>1 tsp ground turmeric</li>
+<li>1/2 tsp garam masala</li>
+</ul>
+<h3 id="sauce"><a class="header" href="#sauce">Sauce</a></h3>
+<ul>
+<li>4 tbsp butter</li>
+<li>4 green cardamom pods, smashed</li>
+<li>1 black cardamom pod, smashed</li>
+<li>1 stick of cinnamon</li>
+<li>2 cloves</li>
+<li>1 bay leaf</li>
+<li>2 inches ginger, turned into a paste</li>
+<li>6 garlic cloves, turned into a paste</li>
+<li>1 kg tomatoes or 2 400g tins of tomatoes, blended into a smooth paste (if
+using fresh tomatoes pass the puree through a sieve to catch any skins).</li>
+<li>2 green chillies, cut lengthwise</li>
+<li>1 tbsp red chili powder</li>
+<li>1 tsp garam masala</li>
+<li>1 tbsp crushed fenugreek leaves</li>
+<li>75-100 ml single cream</li>
+<li>Salt to taste</li>
+<li>Sugar to taste, optional</li>
+</ul>
+<h2 id="directions-9"><a class="header" href="#directions-9">Directions</a></h2>
+<ol>
+<li>Mix chicken with the chili powder, lemon juice and salt and set aside for 20
+min.</li>
+<li>Mix all the ingredients for the second marinade. Add the chicken and pop in
+the fridge overnight.</li>
+<li>The next day cook the chicken. The outside is supposed to be nicely browned
+and charred in places. It’s ok if the inside is still raw. You can cook it on
+a griddle pan, on a barbecue, or under the broiler (or if you happen to have
+a tandoor use that).</li>
+<li>Heat 2 tbsp of butter in a pan. Add black and green cardamom, cloves,
+cinnamon and bay leaf and cook until fragrant.</li>
+<li>Add ginger and garlic pastes and fry for a couple of min. until the raw smell
+disappears.</li>
+<li>Add tomato puree, green chillies and red chili powder and cook until most of
+the water from the tomatoes has evaporated and the oils start to separate.</li>
+<li>Add around a cup of water (add more or less depending on how thick you want
+the sauce to be), and the chicken and simmer for about 10 min.</li>
+<li>Add the garam masala, fenugreek leaves, remaining 2 tbsp of butter and cream.
+Add salt and optionally sugar to taste. Simmer for another min.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-crepes"><a class="header" href="#-crepes">🥞 Crepes</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2017/03/basic-crepes-batter-recipe.html">Original recipe</a></p>
+<h2 id="ingredients-10"><a class="header" href="#ingredients-10">Ingredients</a></h2>
+<ul>
+<li>2 large eggs</li>
+<li>1 1/4 cups whole milk (10 fluid ounces; 280ml)</li>
+<li>1 cup flour (5 ounces; 140g)</li>
+<li>1 tablespoon melted unsalted butter or vegetable oil (1/2 ounce; 15ml), plus
+more for cooking</li>
+<li>Pinch kosher salt</li>
+<li>1 tablespoon (8g) sugar, if making sweet crepes</li>
+<li>1 tablespoon minced fresh herbs, such as parsley, tarragon, chervil, or chives
+(optional; for savory crepes)</li>
+</ul>
+<h2 id="directions-10"><a class="header" href="#directions-10">Directions</a></h2>
+<ol>
+<li>blend all ingredients until smooth, about 10 seconds. if adding herbs for
+savory crepes, add them and pulse briefly to combine.</li>
+<li>heat a 10-inch nonstick skillet over medium heat, grease lightly with oil or
+butter</li>
+<li>pour in about 3-4 tablespoons of batter and quickly swirl it around to coat
+the bottom of the pan</li>
+<li>cook until the top is dry, 20-30seoncds. pull up one edge with a fork or
+spatula, grab it with your fingers, and flip. cook another 10 seconds or so
+then transfer to a plate. repeat for the rest of the batter.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-dutch-baby"><a class="header" href="#-dutch-baby">🥞 Dutch Baby</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2012/04/dutch-baby-pancake-recipe.html">Original recipe</a></p>
+<h2 id="ingredients-11"><a class="header" href="#ingredients-11">Ingredients</a></h2>
+<p><em>Note- 2 eggs per person is about the right amount,
+scale recipe accordingly, and use multiple pans</em></p>
+<ul>
+<li>3 large eggs, left at room temperature for 30 minutes
+(put them in a bowl of hot water to speed up)</li>
+<li>3 tablespoons sugar, plus more for garnish</li>
+<li>1/2 teaspoon cinnamon</li>
+<li>1/4 teaspoon salt</li>
+<li>1/2 teaspoon vanilla extract</li>
+<li>2/3 cup (about 3 3/4 ounces) flour</li>
+<li>2/3 cup milk, at room temperature (microwave to speed up)</li>
+<li>4 tablespoons unsalted butter, cut into 4 pieces</li>
+<li>1 lemon, cut into wedges, for garnish, optional</li>
+</ul>
+<h2 id="directions-11"><a class="header" href="#directions-11">Directions</a></h2>
+<ol>
+<li>Place skillet in oven on middle rack and preheat to 400°F. In the bowl of a
+food processor combine eggs, sugar, cinnamon, salt, and vanilla extract.
+Pulse until combined. Add flour and pulse to combine. With motor running, add
+milk, and process for 30 seconds.</li>
+<li>Take hot skillet out of oven and add butter, swirling to coat pan until
+butter is melted. Pour batter into pan. Bake until dough is puffed and
+golden, about 20 minutes. Serve immediately, with extra sugar sprinkled on
+top, and a squeeze of lemon, if desired.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-falafel"><a class="header" href="#-falafel">🧆 Falafel</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2016/03/the-food-lab-vegan-experience-best-homemade-falafel-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-12"><a class="header" href="#ingredients-12">Ingredients</a></h2>
+<ul>
+<li>1/2 pound dried chickpeas (1 generous cup; 225g)</li>
+<li>2 ounces picked fresh cilantro, parsley, or mint leaves, or preferably a
+mixture of all three (about 2 cups; 55g)</li>
+<li>6 scallions, white and pale green parts only, sliced (about 2 ounces; 55g)
+(optional)</li>
+<li>2 medium cloves garlic, minced (about 2 teaspoons; 10ml)</li>
+<li>1 teaspoon (about 4g) ground cumin</li>
+<li>1/2 teaspoon (about 2g) ground coriander seed</li>
+<li>2 teaspoons (about 10g) kosher salt, plus more for seasoning</li>
+<li>2 to 3 cups (480 to 720ml) vegetable oil, for frying</li>
+</ul>
+<h2 id="directions-12"><a class="header" href="#directions-12">Directions</a></h2>
+<ol>
+<li>Rinse chickpeas and place in a large bowl. Cover with cold water, adding
+enough to allow the chickpeas to at least triple in volume. Cover and let
+stand at room temperature overnight. The next day, drain, rinse, and
+carefully dry chickpeas in a salad spinner.</li>
+<li>Combine chickpeas, herbs, scallions, garlic, cumin, coriander, and salt in
+the work bowl of a food processor. Pulse until chickpeas are very finely
+minced, stopping the food processor to scrape down the sides as necessary. A
+handful of the mixture squeezed into a ball should be able to barely hold
+together. If not, process a little more.</li>
+<li>Transfer mixture to a bowl, cover, and place in refrigerator for 15 minutes
+to allow time for more starch to seep out of chickpeas. This will help the
+balls retain their shape better once formed. Using a tablespoon measure,
+scoop out heaping spoonfuls of the mixture into your hand. Gently shape each
+into a ball (you will not be able to roll the mixture like cookie dough; this
+is okay) and place them on a clean plate.</li>
+<li>When all the balls have been formed, fill a deep cast iron, carbon steel, or
+nonstick skillet or Dutch oven with 3/4 inch of oil. Heat over high heat
+until oil registers 375°F on an instant-read thermometer. Carefully lower
+chickpea balls into oil one at a time, allowing a little space between each
+ball and cooking in batches if necessary. Adjust heat as necessary to
+maintain a temperature of between 350 and 375°F. Allow to cook undisturbed
+until well browned on bottom sides, then carefully flip balls with a fork
+until browned on second side, about 4 minutes total. Transfer cooked chickpea
+balls to a paper towel–lined plate and season with salt. Repeat with
+remaining chickpea balls.</li>
+<li>Serve immediately with tahini and/or hummus on the side, or stuffed into pita
+bread with tahini, tomatoes, cucumber, pickles, and shredded cabbage.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-ny-pizza"><a class="header" href="#-ny-pizza">🍕 NY pizza</a></h1>
+<p><a href="https://www.reddit.com/r/FoodPorn/comments/e2fhg5/second_attempt_on_new_yorkstyle_pizza/f8vcyd6/">Original
+recipe</a></p>
+<h2 id="ingredients-13"><a class="header" href="#ingredients-13">Ingredients</a></h2>
+<h3 id="forkish-method-pizza-dough"><a class="header" href="#forkish-method-pizza-dough">Forkish method pizza dough</a></h3>
+<p>This will make enough dough for 2-3x 10&quot; pizzas, I'm guessing</p>
+<ul>
+<li>500g flour (see <a href="mains/ny-pizza.html#flour-note">flour note</a>)</li>
+<li>~350g (baker's percentage 70%) water at 90-95F</li>
+<li>1 tsp commercial yeast (or sourdough starter etc.)</li>
+<li>~10g salt</li>
+</ul>
+<ol>
+<li>mix flour and water. aiming for a mixture temperature of ~75F, so err higher
+on the water temperature if your kitchen is colder. leave it covered for 20
+minutes to autolyze</li>
+<li>add yeast and salt, mix thoroughly. put in the fridge overnight, or up to 2-3
+days</li>
+</ol>
+<p><a name="flour-note"></a><em>Flour note: ideally type 0 or 00; or anything with
+~12% protein and fine mill. I've had good results with general purpose like
+KAF's <a href="https://www.kingarthurflour.com/pro/products">Select Artisan</a>. You can
+also use all-purpose or bread flour for just fine results too.</em></p>
+<h3 id="pizza-sauce"><a class="header" href="#pizza-sauce">Pizza sauce</a></h3>
+<ul>
+<li>canned or fresh roma tomatoes</li>
+<li>salt + pepper</li>
+<li>(optional) granulated garlic + onion</li>
+<li>(optional) ground or fresh oregano, basil</li>
+</ul>
+<p>Immersion blender or food processor some canned or fresh roma tomatoes with some
+salt and pepper. Optionally add granulated garlic + onion, oregano (ground or
+fresh), basil.</p>
+<h3 id="cheese"><a class="header" href="#cheese">Cheese</a></h3>
+<ul>
+<li>low-moisture whole milk mozzerella</li>
+</ul>
+<p>Low moisture has the melting profile for classic NY pizza.</p>
+<h2 id="directions-13"><a class="header" href="#directions-13">Directions</a></h2>
+<p>Pizza steel recommended.</p>
+<ol>
+<li>heat steel or stone in oven to 500F, or higher if your oven supports it</li>
+<li>while it's heating, dough out of fridge and divide into balls</li>
+<li>once oven's ready, press out one of the pizza balls into form, add sauce and
+cheese</li>
+<li>bake for ~5-7 minutes, when the cheese is fully melted and pizza looks done</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-cooking-equipment"><a class="header" href="#-cooking-equipment">🛠️ Cooking Equipment</a></h1>
+<p><em>Idea from https://tylertringas.com/cooking-for-founders/</em></p>
+<h2 id="pots-and-pans"><a class="header" href="#pots-and-pans">Pots and pans</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Cuisinart-733-30H-Classic-Stainless-2-Quart/dp/B00008CM6B">large stainless saute
+pan</a></p>
+<p><em>cook long pasta in it!</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/">12&quot; stainless
+skillet</a></p>
+<p><em>saute dishes etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Calphalon-Tri-Ply-Stainless-Cookware-2-quart/dp/B003L0ZNYY">2.5qt + 4.5qt sauce
+pans</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/AmazonBasics-Enameled-Covered-Dutch-7-3-Quart/dp/B073Q9PSWD">7.5qt dutch
+oven</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/cuisinel-Pre-Seasoned-Cookware-Heat-Resistant-Induction/dp/B071G3B139">cast iron
+skillet</a></p>
+<p><em>searing on stove top, cornbread in the oven, etc. i prefer to cook acidic
+dishes in the stainless to keep the seasoning</em></p>
+</li>
+<li>
+<p><a href="misc/todo">big 3 gallon stock pot</a></p>
+<p><em>can use it for pasta as well as stocks</em></p>
+</li>
+</ul>
+<h2 id="baking"><a class="header" href="#baking">Baking</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Nordic-Ware-43172-Set-Half-Nonstick/dp/B07BZLZFRG">half sheet pans + racks</a></p>
+<p><em>so useful; roasting veggies, prep, cookies, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Pyrex-SYNCHKG106070-Basics-Baking-Dishes/dp/B07794QZKC">pyrex baking dish</a></p>
+<p><em>roast chicken, whole vegetables (sheet trays are better for cut vegetables)</em></p>
+</li>
+<li>
+<p>silicone baking sheets</p>
+<p><em>reusable parchment</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Conductive-Cooking-Square-Deluxe-Version/dp/B085SW7PG6">baking steel</a></p>
+<p><em>so expensive 😢 but really improves pizza crust. use it for quesadillas or
+smash bugers on the stove top, or making english muffins</em></p>
+</li>
+<li>
+<p>parchment paper</p>
+<p><em>useful in a lot of places; cut a small square when smashing smash burgers and
+it'll keep your spatula from sticking; cook bacon for a crowd by lining a
+sheet tray with it</em></p>
+</li>
+</ul>
+<h2 id="tools"><a class="header" href="#tools">Tools</a></h2>
+<ul>
+<li>
+<p>2 stainless steel tongs</p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B003HEOLXI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">fish turner spatula</a></p>
+<p><em>so useful. pancakes, stirring vegetables, cooking eggs, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/tablecraft-w12-12-beechwood-wooden-spoon/40712WOOD.html">1-2 big wooden spoons</a></p>
+<p><em>stirring stuff, tasting</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Wood-Mixing-Cooking-Spatula-Resistant/dp/B07MXQDV65">2 big wooden spatulas</a></p>
+<p><em>scraping, stirring</em></p>
+</li>
+<li>
+<p><a href="https://gir.co/products/spatula?variant=26882837381184">silicone spoon</a></p>
+<p><em>very extravagant, but super handy for scraping the last bit of sauce out of a
+pan. kinda overlaps with below though</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Cooptop-Silicone-Spatula-Set-Resistant/dp/B082F6V7FV/">rubber
+spatula</a></p>
+<p><em>this is a nice set with the 3 i use most (small, large, spoon-like)</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07V7GZY16/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">large
+grater</a></p>
+<p><em>i broke some of those handled graters &gt;_&lt; which are frustratingly NOT a
+single piece. this set has been a lot more reliable and has a nice large
+grating surface</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B004JKUWBO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">microplane</a></p>
+<p><em>super useful; cheese, citrus, garlic/alliums, nutmeg, etc.</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/dp/B005DPMQR2/?coliid=I69QCBQX62MBF&amp;colid=28281Z0X82BLW&amp;psc=0">nice pair of kitchen
+shears</a></p>
+<p><em>breaking down poultry, cutting herbs. i use mine for ton of miscellaneous
+tasks</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B007WQ9YNO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">rice
+cooker</a></p>
+<p><em>you can cook beans and lentils and other grains in these too!</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Mueller-Austria-Ultra-Stick-Multi-Purpose-Attachment/dp/B075X1KPLZ">immersion blender</a></p>
+<p><em>sauces, mayonnaise</em></p>
+</li>
+<li>
+<p><a href="misc/todo">citrus juicer</a></p>
+</li>
+<li>
+<p><a href="misc/todo">large mortar and pestle</a></p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/14-stainless-steel-piano-whip-whisk/92247034.html">whisk</a></p>
+<p>a nice big piano wire whisk, 12 or 14&quot;, handy for mixing dry or wet
+ingredients</p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/13-wooden-rolling-pin/407ROLLPNW13.html">rolling pin</a></p>
+<p>nothing fancy, but necessary for making laminated doughs (pie crusts,
+biscuits, pastries). i end up using my <a href="https://www.webstaurantstore.com/ateco-20175-20-maple-wood-tapered-french-rolling-pin/14420175.html">french style rolling
+pin</a>
+more often tbh (easier to clean, more durable)</p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/4-oz-one-piece-stainless-steel-ladle/92246814.html">metal ladle</a></p>
+<p>useful for serving soups / stews / chili portions. also can be used for wok
+cooking, pancakes</p>
+</li>
+</ul>
+<h2 id="prep"><a class="header" href="#prep">Prep</a></h2>
+<p>The references list is spot on for this stuff:
+https://tylertringas.com/cooking-for-founders/</p>
+<p>Some additions:</p>
+<ul>
+<li>
+<p><a href="https://www.webstaurantstore.com/anchor-hocking-81605ahg18-2-qt-glass-measuring-cup/55081605A.html">large pourable
+container</a></p>
+<p>i use this for pancakes + madelines + popovers. saves cleaning an extra bowl</p>
+</li>
+</ul>
+<h2 id="knives"><a class="header" href="#knives">Knives</a></h2>
+<p>Probably most controversial:</p>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B005P0OJ4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">2 8-inch commercial chef's
+knives</a></p>
+<p><em>you can spend a ton of money on knives if you like. i've had extremely good
+results with these knives; bomber, sharpen easily and very sharp. clean and
+dry immediately after using them. i used to use a japanese water stone to
+sharpen, but now i just use one of those pocket ceramic sharpeners, which
+works great on these knives</em></p>
+</li>
+</ul>
+<p>You <strong>DON'T</strong> need a bread/serrated knife. A sharp chef's knife is better in every
+application IMO.</p>
+<p>I rarely/never use a paring knife; pretty much any kitchen task is easier with a
+chef's knife for me.</p>
+<p>That's it. That's all you need for knives.</p>
+<p>The advice on cutting boards here is spot on (at least 1 large wooden, 12&quot;x18&quot;
+or bigger, and 2-3 small wooden or plastic):
+https://tylertringas.com/cooking-for-founders/</p>
+<h2 id="storage"><a class="header" href="#storage">Storage</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/DuraHome-Containers-Leakproof-Container-Microwavable/dp/B075X416X8">deli
+containers</a></p>
+<p>these are super. they all use the same lids, nest compactly, leakproof, clear
+so you can tell what's in them. cheap. reusable. you can toss them if they
+break.</p>
+</li>
+</ul>
+<h2 id="exotics"><a class="header" href="#exotics">Exotics</a></h2>
+<p>This is stuff I use less frequently but is handy.</p>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Grinder-capacity-Electric-Catcher-stainless/dp/B08HK6VCXP">spice
+grinder</a></p>
+<p><em>I have a model sortof similar to this one. I use it when grinding whole
+toasted sichuan peppercorn, toasted whole spices for indian food, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B001AVREHA">molcajete</a></p>
+<p><em>guacamole tastes better out of it, might be all in my head though 😅 also
+useful for making aioli and pesto</em></p>
+</li>
+<li>
+<p>stand mixer</p>
+<p><em>I use this pretty rarely but it is useful when making enriched doughs like
+brioche</em></p>
+</li>
+<li>
+<p>food processor</p>
+<p><em>also pretty rarely used, but great for pesto or lazy biscuits, breadcrumbs</em></p>
+</li>
+<li>
+<p>cooking chopsticks</p>
+<p><em>these are handy for stirring and moving stuff when tongs are a little too
+hefty. cheap to have around. I don't use mine as much as I should!</em></p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-andouille-sausage"><a class="header" href="#-andouille-sausage">🌭 Andouille sausage</a></h1>
+<p><a href="https://tasteofartisan.com/andouille-sausage/">Original recipe</a></p>
+<h2 id="ingredients-14"><a class="header" href="#ingredients-14">Ingredients</a></h2>
+<ul>
+<li>1000g pork butt (2.2 lbs)</li>
+<li>13g kosher salt (2 heaping tsp)</li>
+<li>2 1/2g Cure #1 (1/2 tsp, level)</li>
+<li>10g garlic (3 cloves, pressed)</li>
+<li>5g black pepper (2 1/2 tsp, cracked)</li>
+<li>4g cayenne pepper (2 tsp)</li>
+<li>100g cold water (1/4 cup)</li>
+</ul>
+<h2 id="directions-14"><a class="header" href="#directions-14">Directions</a></h2>
+<ol>
+<li>Grind lean pieces of meat through a stuffing plate or 1/2&quot; (12 mm) - 3/4&quot; (18
+mm) plate.</li>
+<li>Grind the fattier pieces through a 1/4″ (6 mm) plate.</li>
+<li>In a large bowl, mix the meat with the rest of the ingredients, including the
+water.</li>
+<li>Stuff into 38 - 40 mm beef or hog casings. Tie to make 12” links.</li>
+<li>Cure in the fridge for 12 - 24 hours.</li>
+<li>Dry for 2-4 hours at room temperature then hold for 30-60 minutes in a
+pre-heated smoker at 130F without smoke.</li>
+<li>Smoke over pecan wood at around 140F for about 8 hours until you obtain a
+nice rich mahogany color.</li>
+<li>Cook Andouille in the smoker at 170F - 195F until the internal temperature
+reaches 154F-158F. This should take about 30-40 minutes.</li>
+<li>Chill quickly by placing on a cold marble slab or a similar cold surface.</li>
+<li>Refrigerate after cooling down. Keep wrapped in butcher's paper for best
+results.</li>
+</ol>
+<p><em>Notes: You may also poach Andouille after smoking in water at 170F-175F until
+the internal temperature reaches 154F - 158F, about 20 minutes. Alternatively,
+you can steam or cook in the oven with convection to finish cooking. Another
+option is to refrigerate it as is and cook as part of a dish, like gumbo.</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-chili-crisp"><a class="header" href="#-chili-crisp">🌶️ Chili Crisp</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2018/04/homemade-spicy-chili-crisp.html">Original
+recipe</a></p>
+<p>Makes 1 quart.</p>
+<h2 id="ingredients-15"><a class="header" href="#ingredients-15">Ingredients</a></h2>
+<ul>
+<li>27g (1 cup) dried árbol chilies, stems removed</li>
+<li>20g (3/4 cup) dried chiles japones, stems removed</li>
+<li>25g (3/4 cup) dried Kashmiri red chilies, stems removed</li>
+<li>1/2 cup (50g) roasted, salted peanuts, chopped</li>
+<li>2-inch piece (30g) fresh ginger, sliced into thin matchsticks</li>
+<li>3/4 teaspoon (2g) freshly ground black pepper</li>
+<li>3 pieces whole star anise</li>
+<li>2 red or black (or green) cardamom pods, split in half</li>
+<li>2 teaspoons (6g) freshly ground cumin</li>
+<li>3 tablespoons (28g) freshly ground Sichuan peppercorn</li>
+<li>5 teaspoons (30g) Diamond Crystal kosher salt; for table salt, use about half
+as much by volume or the same by weight</li>
+<li>2 tablespoons (20g) sugar</li>
+<li>2 1/2 cups (500g) peanut oil, or any other neutral oil</li>
+<li>2 cups (200g) thinly sliced shallots (about 1mm thick)</li>
+<li>3/4 cup (65g) thinly sliced garlic (about 1mm thick)</li>
+</ul>
+<h2 id="directions-15"><a class="header" href="#directions-15">Directions</a></h2>
+<ol>
+<li>Place a wire rack inside a quarter- or half-sheet tray. Using your hands and
+kitchen shears, cut open chilies and place them on rack. Shake rack to sift
+off most of the seeds (don't worry about removing all the seeds). Transfer
+chilies to a bowl and discard seeds.</li>
+<li>Using a spice grinder and working in batches, process chilies until they are
+ground to a size just larger than standard chili flakes. Transfer processed
+chilies to a heatproof bowl or pot large enough to accommodate bubbling oil
+(at least 4 quarts in size). Combine chili flakes with peanuts, ginger, black
+pepper, star anise, cardamom, cumin, Sichuan peppercorn, mushroom powder,
+salt, MSG (if using), and sugar. Set aside.</li>
+<li>Set a fine-mesh strainer over a 2-quart heatproof bowl. In a 4-quart
+saucepan, combine oil and shallots. Cook over high heat while constantly
+stirring. Once shallots become light golden brown, strain. Pour oil back into
+pot and add garlic. Cook over medium-low heat, constantly stirring, until
+light golden brown, then strain. Return oil to pot once more. Set aside fried
+shallots and garlic.</li>
+<li>Heat oil to 375°F (190°C). Pour hot oil over chilies, spices, and other
+seasonings. Stir well to distribute hot oil throughout. Set aside to fully
+cool, about 30 minutes or until bowl or pot is cool to the touch.</li>
+<li>Once chili-and-oil mixture has fully cooled, remove star anise and cardamom
+pods. Mix in fried shallots and garlic. Pour finished chili crisp into jars
+and store in the fridge for about 3 months. It can be served immediately, but
+for best flavor, eat it the next day. Stir well before serving.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-kabanosy"><a class="header" href="#-kabanosy">🌭 Kabanosy</a></h1>
+<p><a href="http://4.bp.blogspot.com/-gxjXG9m4Qyo/WXcyvORK88I/AAAAAAAAFoA/tFiHzfarqvwhYQWzbsH9uGSy6gOfkRBFQCK4BGAYYCw/s1600/IMG_20170724_183129.jpg"><img src="https://4.bp.blogspot.com/-gxjXG9m4Qyo/WXcyvORK88I/AAAAAAAAFoA/tFiHzfarqvwhYQWzbsH9uGSy6gOfkRBFQCK4BGAYYCw/s640/IMG_20170724_183129.jpg" alt="" /></a></p>
+<p>Recipe based on:</p>
+<ul>
+<li><a href="http://wedlinydomowe.pl/en/viewtopic.php?t=5979">http://wedlinydomowe.pl/en/viewtopic.php?t=5979</a></li>
+<li><a href="https://honest-food.net/kabanosy-recipe/">https://honest-food.net/kabanosy-recipe/</a></li>
+</ul>
+<h2 id="ingredients-16"><a class="header" href="#ingredients-16">Ingredients</a></h2>
+<p>(Yields about 10 pairs of 10-12&quot; links)</p>
+<ul>
+<li>1200 grams (2.5#) of pork butt</li>
+<li>25 grams salt</li>
+<li>3 grams Cure #1</li>
+<li>4 grams black pepper</li>
+<li>2 grams caraway seeds</li>
+<li>2 grams mace</li>
+<li>4 grams sugar</li>
+<li>1/3 cup ice water</li>
+</ul>
+<h2 id="directions-16"><a class="header" href="#directions-16">Directions</a></h2>
+<ol>
+<li>Chill pork butt in the freezer for ~1hr before starting, helps keep
+everything nice and cold while processing.</li>
+<li>Coarse grind everything together</li>
+<li>Stuff into 22mm sheep casings</li>
+<li>I smoked them over cherry (chips) for about 1.5 hours only, I only have a
+round weber grill I use to smoke, with aluminum foil to indirect the heat a
+bit, but it's a really poor setup for slow smoking anything.</li>
+<li>Dry on wire racks in a refrigerator, turning occasionally, for 5 days.</li>
+</ol>
+<p><a href="http://3.bp.blogspot.com/-gFu54BD981w/WXcyZFk599I/AAAAAAAAFn4/fJDay01VPeMfABZGJ1v2jm-WS6AiFMoRQCK4BGAYYCw/s1600/IMG_20170718_200914.jpg"><img src="https://3.bp.blogspot.com/-gFu54BD981w/WXcyZFk599I/AAAAAAAAFn4/fJDay01VPeMfABZGJ1v2jm-WS6AiFMoRQCK4BGAYYCw/s320/IMG_20170718_200914.jpg" alt="" /></a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-kielbasa"><a class="header" href="#-kielbasa">🍖 Kielbasa</a></h1>
+<p>Recipe from <a href="https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-polish-kielbasa">Ethan
+Chlebowski</a></p>
+<h2 id="ingredients-17"><a class="header" href="#ingredients-17">Ingredients</a></h2>
+<h3 id="ingredients-by-percentage"><a class="header" href="#ingredients-by-percentage">Ingredients by percentage</a></h3>
+<p>All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.</p>
+<ul>
+<li>70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
+<li>1.75% Salt</li>
+<li>1.75% Brown Sugar</li>
+<li>0.5% Black Pepper</li>
+<li>0.25% Cure #1</li>
+<li>0.187% Garlic Powder</li>
+<li>0.125% Whole Mustard Seed</li>
+<li>0.0625% Pickling Spice</li>
+<li>0.0313% Marjoram</li>
+<li>Water</li>
+<li>Sausage Casings</li>
+</ul>
+<h3 id="ingredients-calculator"><a class="header" href="#ingredients-calculator">Ingredients calculator</a></h3>
+<li><input type="text" id="meat_grams" size="3" /> grams of 70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
+<li><b id="Salt">?</b> Salt</li>
+<li><b id="Brown Sugar">?</b> Brown Sugar</li>
+<li><b id="Black Pepper">?</b> Black Pepper</li>
+<li><b id="Cure #1">?</b> Cure #1</li>
+<li><b id="Garlic Powder">?</b> Garlic Powder</li>
+<li><b id="Whole Mustard Seed">?</b> Whole Mustard Seed</li>
+<li><b id="Pickling Spice">?</b> Pickling Spice (sub crushed bay leaves and coriander powder</li>
+<li><b id="Marjoram">?</b> Marjoram</li>
+<li>Water</li>
+<li>Sausage Casings</li>
+<script type="text/javascript">
+    var meat_grams = document.getElementById('meat_grams');
+
+    var conversions = {
+        "Salt": .0175,
+        "Brown Sugar": .0175,
+        "Black Pepper": .005,
+        "Cure #1": .0025,
+        "Garlic Powder": .00187,
+        "Whole Mustard Seed": .00125,
+        "Pickling Spice": .000625,
+        "Marjoram": .000313,
+    };
+
+    meat_grams.addEventListener('keyup', function () {
+        for (let ingredient in conversions) {
+            var gram_value = meat_grams.value * conversions[ingredient];
+            var text = gram_value.toFixed(2) + "g "
+            document.getElementById(ingredient).innerHTML = text;
+            console.log(ingredient + text)
+        }
+    });
+</script>
+<h2 id="directions-17"><a class="header" href="#directions-17">Directions</a></h2>
+<p>Multiply the meat by the percentages of spices.</p>
+<p>For example, 454 grams of pork X 0.0175 (1.75%) gives you around 8 grams of
+salt.</p>
+<ol>
+<li>Mix the measured spices into cold meat chunks (or ground meat if using).
+Note: the meat grinds better if very cold, almost frozen.</li>
+<li>Add the meat to the grinder and push it through. Once the meat is ground,
+pour water over it and start mixing it by hand. There aren't specific
+measurements for the amount of water this is more of a by feel thing to see
+how much you want to add. Mix by hand, add water and adjust as needed.. At
+the end of the process, the meat should clump together and even sticks to
+your hand without falling. Note: At this point, you have loose kielbasa that
+can be fried up as a burger for a delicious lunch.</li>
+<li>Fill the sausage stuffing container with the kielbasa. Place the casing over
+the tube and slowly extrude the sausage into the casing.</li>
+<li>Once the sausage is stuffed, twist into links by pinching together and
+twisting the casing.</li>
+<li>Hang the sausages to dry for a few hours until the outside casing is no
+longer wet.</li>
+<li>Meanwhile set up the smoker (weber grill, smokehouse, electric smoker, etc).</li>
+<li>Smoke the kielbasa until the internal temperature reaches 150 F (65 C).</li>
+<li>Enjoy the kielbasa with sauerkraut, on sandwiches, etc.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-moms-pickles"><a class="header" href="#-moms-pickles">🥒 Mom's Pickles</a></h1>
+<img src="preserves/../pics/moms-pickles.jpeg" alt="drawing" style="max-width:100%;"/>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-pancetta"><a class="header" href="#-pancetta">🥓 Pancetta</a></h1>
+<p>Original Recipe from <em>Home Production of Quality Meats and Sausages by Stanley Marianski</em></p>
+<h2 id="ingredients-18"><a class="header" href="#ingredients-18">Ingredients</a></h2>
+<table><thead><tr><th>Ingredient</th><th>Metric</th><th>US</th></tr></thead><tbody>
+<tr><td>pork belly</td><td>1000 g</td><td>2.20 lbs.</td></tr>
+<tr><td>salt</td><td>28 g</td><td>5 tsp</td></tr>
+<tr><td>Cure #1</td><td>3.2 g</td><td>¾ tsp</td></tr>
+<tr><td>sugar</td><td>5.0 g</td><td>1 tsp</td></tr>
+<tr><td>white pepper</td><td>4.0 g</td><td>2 tsp</td></tr>
+<tr><td>nutmeg</td><td>1.0 g</td><td>½ tsp</td></tr>
+<tr><td>fennel</td><td>2.0 g</td><td>1 tsp</td></tr>
+<tr><td>red pepper</td><td>1.0 g</td><td>½ tsp</td></tr>
+<tr><td>garlic powder</td><td>1.5 g</td><td>½ tsp</td></tr>
+</tbody></table>
+<h2 id="directions-18"><a class="header" href="#directions-18">Directions</a></h2>
+<ol>
+<li>Mix salt and Cure #1 together.</li>
+<li>Rub ½ of the mix into the belly.</li>
+<li>Place the belly in a zip lock plastic bag. Leave for 4 days in refrigerator.</li>
+<li>Remove the belly from the bag. Mix all spices with the remaining half of the
+curing mixture (salt and cure #1). Rub the mixture into the belly.
+Refrigerate for 4 more days.</li>
+<li>Wash belly with tap water and then soak it for 15 minutes in cold water.</li>
+<li>Dry belly for 2 days at 54° F (12° C).</li>
+<li>Remove the skin and divide the belly in two cutting along its length.</li>
+<li>Soak 5” (120 mm) fibrous casing for 1 hour in water. Roll each belly into a
+tight roll and insert into the casing. Run butcher twine around the pancetta
+every ¾” and make a hanging loop. Remove any air pockets with a needle.</li>
+<li>Hang for 3 weeks at 54° F (12° C).</li>
+<li>Refrigerate.</li>
+</ol>
+<p><em>Notes: Pancetta can be rolled or straight.</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-pickled-fresno-chilis"><a class="header" href="#-pickled-fresno-chilis">🌶️ Pickled Fresno Chilis</a></h1>
+<p><a href="https://www.youtube.com/watch?v=YQqmLBwK8UM">Original recipe</a></p>
+<h2 id="ingredients-19"><a class="header" href="#ingredients-19">Ingredients</a></h2>
+<ul>
+<li>250g Fresno chilis, sliced thin or slit lengthwise</li>
+<li>25g garlic, smashed</li>
+<li>200ml distilled vinegar</li>
+<li>5g salt (2.5% vs. vinegar)</li>
+<li>1 tablespoon coriander seeds</li>
+<li>4 bay leaves</li>
+<li>10 g sugar (5% vs. vinegar)</li>
+</ul>
+<h2 id="directions-19"><a class="header" href="#directions-19">Directions</a></h2>
+<ol>
+<li>Pack the Fresno chilies in a jar. Heat remaining ingredients in a small
+saucepan until boiling. Pour over the chilies. Cover with a paper towel
+soaked in the brine. Let cool, then transfer to refrigerator.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-crispy-potatoes"><a class="header" href="#-crispy-potatoes">🥔 Crispy potatoes</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2016/12/the-best-roast-potatoes-ever-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-20"><a class="header" href="#ingredients-20">Ingredients</a></h2>
+<ul>
+<li>salt and pepper</li>
+<li>russet or yukon gold potatoes, 1&quot; pieces</li>
+<li>olive oil / duck fat / goose fat / chicken fat / bacon grease</li>
+<li>(optional) parsley, rosemary, sage, etc, minced garlic. also good is cumin,
+paprika</li>
+<li>(optional) 1/2 teaspoon baking soda</li>
+</ul>
+<h2 id="directions-20"><a class="header" href="#directions-20">Directions</a></h2>
+<ol>
+<li>Preheat oven to 425 F, put cast iron skillet in to preheat</li>
+<li>cover diced potatoes with 1/2&quot; of water in a big pot, add 2 tablespoons salt
+and optionally baking soda, boil until tender</li>
+<li>(optional) if using garlic, toast it in a pan a little bit with the herbs and
+fat. scoop out the garlic/herbs and reserve, the oil will be used for
+roasting</li>
+<li>drain potatoes, rest 30 seconds to evaporate a little more moisture. shake
+thaem bit in the pot or bowl to make a little mashed-potato like coating on
+them. toss with the fat, season with salt and pepper (and other spices if
+using)</li>
+<li>remove cast iron skillet from the oven, add some fat to the pan to coat, and
+add the potatoes</li>
+<li>roast for about 20 minutes. bottom side of the potatoes should be crispy,
+turn them over to toast the other side for another 25-35 minutes</li>
+<li>toss with the reserved herb/garlic mixture, add more salt + pepper if
+necessary</li>
+</ol>
+<p><img src="sides/pics/crispy-potatoes.jpg" alt="crispy potatoes" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-egg-rolls"><a class="header" href="#-egg-rolls">🥠 Egg rolls</a></h1>
+<p><a href="https://thewoksoflife.com/takeout-egg-rolls/">Original recipe</a></p>
+<h2 id="ingredients-21"><a class="header" href="#ingredients-21">Ingredients</a></h2>
+<h3 id="filling"><a class="header" href="#filling">Filling</a></h3>
+<ul>
+<li>1 roast or pan-cooked pork chop, julienned</li>
+<li>shredded cabbage + carrots (or &quot;cole slaw mix&quot; from the store)</li>
+<li>scallions or red onion or normal onion, fine dice</li>
+<li>1 tsp salt</li>
+<li>1 tsp sugar</li>
+<li>1 tbsp seasame oil</li>
+<li>1/2 tsp five spice powder</li>
+<li>1/2 tsp white pepper powder</li>
+</ul>
+<h3 id="assembly--cooking"><a class="header" href="#assembly--cooking">Assembly + cooking</a></h3>
+<ul>
+<li>1 egg (for sealing wraps) beaten</li>
+<li>package of wonton or egg roll wraps</li>
+<li>oil for frying (canola or peanut), about 1/2 cup</li>
+</ul>
+<h2 id="directions-21"><a class="header" href="#directions-21">Directions</a></h2>
+<ol>
+<li>pot of water to boil, add cabbage + carrots, cook for about 20-30 seconds and
+immediately drain and rinse thoroughly with cold water. let them dry for a
+few minutes, or squeeze and pat dry with a towel</li>
+<li>add the remainder of the filling ingredients and mix together</li>
+<li>if using wonton wrappers:
+<ol>
+<li>use your finger to wipe some beaten egg on the left, right, and bottom edge</li>
+<li>add a little filling to the middle of the wrap</li>
+<li>take the top edge and roll under the bottom edge</li>
+<li>press to crimp the left and right sides</li>
+</ol>
+</li>
+<li>if using egg roll wraps:
+<ol>
+<li>wrap diagonally; place filling in the middle, fold bottom corner up</li>
+<li>sides fold in</li>
+<li>little egg wash on the top corner, fold it down and press gently to seal</li>
+</ol>
+</li>
+<li>to fry, add about 1/2 inch of oil to your pan, turn on high heat. when oil
+spatters when a drop of water is tossed into it, fry the egg rolls. the
+wonton-wrapped ones will fry in about 10-15 seconds a side when the oil is
+hot.
+I use a fork to flip them over, then tongs to remove. let cool a little on
+paper towels</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-elote-street-corn"><a class="header" href="#-elote-street-corn">🌽 Elote (Street Corn)</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2013/07/mexican-street-corn-elotes-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-22"><a class="header" href="#ingredients-22">Ingredients</a></h2>
+<ul>
+<li>1/4 cup (60ml) mayonnaise</li>
+<li>1/4 cup (60ml) sour cream or Mexican crema</li>
+<li>1/2 cup (110g) finely crumbled Cotija or feta cheese, plus more for serving</li>
+<li>1/2 teaspoon ancho or guajillo chili powder, plus more for serving</li>
+<li>1 medium clove garlic, finely minced (about 1 teaspoon)</li>
+<li>1/4 cup finely chopped cilantro leaves and tender stems</li>
+<li>4 ears shucked corn</li>
+<li>1 lime, cut into wedges</li>
+</ul>
+<h2 id="directions-22"><a class="header" href="#directions-22">Directions</a></h2>
+<ol>
+<li>Light 1 chimney full of charcoal. When all charcoal is lit and covered with
+gray ash, pour out and spread coals evenly over half of coal grate.
+Alternatively, set half the burners of a gas grill to high heat. Set cooking
+grate in place, cover grill, and allow to preheat for 5 minutes. Clean and
+oil grilling grate.</li>
+<li>While coals heat, combine mayonnaise, sour cream or crema, cheese, chili
+powder, garlic, and cilantro in a large bowl. Stir until homogeneous and set
+aside.</li>
+<li>When grill is hot, place corn directly over hot side of grill and cook,
+rotating occasionally, until cooked through and charred in spots on all
+sides, about 8 minutes total.</li>
+<li>Transfer corn to bowl with cheese mixture and use a large spoon to evenly
+coat corn on all sides with mixture. Sprinkle with extra cheese and chili
+powder and serve immediately with lime wedges.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-hard-boiled-eggs"><a class="header" href="#-hard-boiled-eggs">🥚 Hard-Boiled Eggs</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2009/10/perfect-boiled-eggs-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-23"><a class="header" href="#ingredients-23">Ingredients</a></h2>
+<ul>
+<li>6-10 ice cubes (if serving immediately)</li>
+<li>3 qts water</li>
+<li>1 to 6 large eggs</li>
+</ul>
+<h2 id="directions-23"><a class="header" href="#directions-23">Directions</a></h2>
+<ol>
+<li>bring water to boil in a large pot</li>
+<li>carefully lower eggs into water, boil for 30 seconds</li>
+<li>cover tightly, lower heat to a light simmer for 11 minutes</li>
+<li>serve hot; or for cold, cool in a bowl of ice water for 15 minutes, then
+shell</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="-watermelon-feta-arugula-salad"><a class="header" href="#-watermelon-feta-arugula-salad">🍉 Watermelon Feta Arugula Salad</a></h1>
+<p><a href="https://www.seriouseats.com/recipes/2016/06/watermelon-feta-mint-salad-recipe.html">Original
+recipe</a></p>
+<h2 id="ingredients-24"><a class="header" href="#ingredients-24">Ingredients</a></h2>
+<ul>
+<li>1/2 watermelon, rind cut off and cut into bite sized pieces</li>
+<li>~3 cups arugula</li>
+<li>~4oz feta, crumbled up</li>
+<li>few tbsp olive oil</li>
+<li>few tbsp basalmic vinegar or lemon juice</li>
+<li>lemon/lime zest (optional)</li>
+<li>salt and pepper</li>
+</ul>
+<h2 id="directions-24"><a class="header" href="#directions-24">Directions</a></h2>
+<ol>
+<li>mix watermelon + feta + arugula together in a big bowl</li>
+<li>add vinegar + oil, mix thoroughly</li>
+<li>dress with salt and pepper</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+    </body>
+</html>

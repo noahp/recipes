@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>kielbasa - Recipes</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Readme</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> baking</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../baking/beignets.html"><strong aria-hidden="true">1.1.</strong> beignets</a></li><li class="chapter-item expanded "><a href="../baking/english-muffins.html"><strong aria-hidden="true">1.2.</strong> english-muffins</a></li><li class="chapter-item expanded "><a href="../baking/garlic-naan.html"><strong aria-hidden="true">1.3.</strong> garlic-naan</a></li><li class="chapter-item expanded "><a href="../baking/hamburger-buns.html"><strong aria-hidden="true">1.4.</strong> hamburger-buns</a></li><li class="chapter-item expanded "><a href="../baking/madelines.html"><strong aria-hidden="true">1.5.</strong> madelines</a></li><li class="chapter-item expanded "><a href="../baking/moms-cookies.html"><strong aria-hidden="true">1.6.</strong> moms-cookies</a></li><li class="chapter-item expanded "><a href="../baking/popover-muffins.html"><strong aria-hidden="true">1.7.</strong> popover-muffins</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> mains</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mains/beef-stew.html"><strong aria-hidden="true">2.1.</strong> beef-stew</a></li><li class="chapter-item expanded "><a href="../mains/bibimbap.html"><strong aria-hidden="true">2.2.</strong> bibimbap</a></li><li class="chapter-item expanded "><a href="../mains/butter-chicken.html"><strong aria-hidden="true">2.3.</strong> butter-chicken</a></li><li class="chapter-item expanded "><a href="../mains/crepes.html"><strong aria-hidden="true">2.4.</strong> crepes</a></li><li class="chapter-item expanded "><a href="../mains/dutch-baby.html"><strong aria-hidden="true">2.5.</strong> dutch-baby</a></li><li class="chapter-item expanded "><a href="../mains/falafel.html"><strong aria-hidden="true">2.6.</strong> falafel</a></li><li class="chapter-item expanded "><a href="../mains/ny-pizza.html"><strong aria-hidden="true">2.7.</strong> ny-pizza</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> misc</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../misc/cooking-equipment.html"><strong aria-hidden="true">3.1.</strong> cooking-equipment</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> preserves</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../preserves/andouille-sausage.html"><strong aria-hidden="true">4.1.</strong> andouille-sausage</a></li><li class="chapter-item expanded "><a href="../preserves/chili-crisp.html"><strong aria-hidden="true">4.2.</strong> chili-crisp</a></li><li class="chapter-item expanded "><a href="../preserves/kabanosy.html"><strong aria-hidden="true">4.3.</strong> kabanosy</a></li><li class="chapter-item expanded "><a href="../preserves/kielbasa.html" class="active"><strong aria-hidden="true">4.4.</strong> kielbasa</a></li><li class="chapter-item expanded "><a href="../preserves/moms-pickles.html"><strong aria-hidden="true">4.5.</strong> moms-pickles</a></li><li class="chapter-item expanded "><a href="../preserves/pancetta.html"><strong aria-hidden="true">4.6.</strong> pancetta</a></li><li class="chapter-item expanded "><a href="../preserves/pickled-fresno-chilis.html"><strong aria-hidden="true">4.7.</strong> pickled-fresno-chilis</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> sides</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sides/crispy-potatoes.html"><strong aria-hidden="true">5.1.</strong> crispy-potatoes</a></li><li class="chapter-item expanded "><a href="../sides/egg-rolls.html"><strong aria-hidden="true">5.2.</strong> egg-rolls</a></li><li class="chapter-item expanded "><a href="../sides/elote-street-corn.html"><strong aria-hidden="true">5.3.</strong> elote-street-corn</a></li><li class="chapter-item expanded "><a href="../sides/hard-boiled-eggs.html"><strong aria-hidden="true">5.4.</strong> hard-boiled-eggs</a></li><li class="chapter-item expanded "><a href="../sides/watermelon-feta-salad.html"><strong aria-hidden="true">5.5.</strong> watermelon-feta-salad</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Recipes</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="-kielbasa"><a class="header" href="#-kielbasa">🍖 Kielbasa</a></h1>
+<p>Recipe from <a href="https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-polish-kielbasa">Ethan
+Chlebowski</a></p>
+<h2 id="ingredients"><a class="header" href="#ingredients">Ingredients</a></h2>
+<h3 id="ingredients-by-percentage"><a class="header" href="#ingredients-by-percentage">Ingredients by percentage</a></h3>
+<p>All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.</p>
+<ul>
+<li>70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
+<li>1.75% Salt</li>
+<li>1.75% Brown Sugar</li>
+<li>0.5% Black Pepper</li>
+<li>0.25% Cure #1</li>
+<li>0.187% Garlic Powder</li>
+<li>0.125% Whole Mustard Seed</li>
+<li>0.0625% Pickling Spice</li>
+<li>0.0313% Marjoram</li>
+<li>Water</li>
+<li>Sausage Casings</li>
+</ul>
+<h3 id="ingredients-calculator"><a class="header" href="#ingredients-calculator">Ingredients calculator</a></h3>
+<li><input type="text" id="meat_grams" size="3" /> grams of 70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
+<li><b id="Salt">?</b> Salt</li>
+<li><b id="Brown Sugar">?</b> Brown Sugar</li>
+<li><b id="Black Pepper">?</b> Black Pepper</li>
+<li><b id="Cure #1">?</b> Cure #1</li>
+<li><b id="Garlic Powder">?</b> Garlic Powder</li>
+<li><b id="Whole Mustard Seed">?</b> Whole Mustard Seed</li>
+<li><b id="Pickling Spice">?</b> Pickling Spice (sub crushed bay leaves and coriander powder</li>
+<li><b id="Marjoram">?</b> Marjoram</li>
+<li>Water</li>
+<li>Sausage Casings</li>
+<script type="text/javascript">
+    var meat_grams = document.getElementById('meat_grams');
+
+    var conversions = {
+        "Salt": .0175,
+        "Brown Sugar": .0175,
+        "Black Pepper": .005,
+        "Cure #1": .0025,
+        "Garlic Powder": .00187,
+        "Whole Mustard Seed": .00125,
+        "Pickling Spice": .000625,
+        "Marjoram": .000313,
+    };
+
+    meat_grams.addEventListener('keyup', function () {
+        for (let ingredient in conversions) {
+            var gram_value = meat_grams.value * conversions[ingredient];
+            var text = gram_value.toFixed(2) + "g "
+            document.getElementById(ingredient).innerHTML = text;
+            console.log(ingredient + text)
+        }
+    });
+</script>
+<h2 id="directions"><a class="header" href="#directions">Directions</a></h2>
+<p>Multiply the meat by the percentages of spices.</p>
+<p>For example, 454 grams of pork X 0.0175 (1.75%) gives you around 8 grams of
+salt.</p>
+<ol>
+<li>Mix the measured spices into cold meat chunks (or ground meat if using).
+Note: the meat grinds better if very cold, almost frozen.</li>
+<li>Add the meat to the grinder and push it through. Once the meat is ground,
+pour water over it and start mixing it by hand. There aren't specific
+measurements for the amount of water this is more of a by feel thing to see
+how much you want to add. Mix by hand, add water and adjust as needed.. At
+the end of the process, the meat should clump together and even sticks to
+your hand without falling. Note: At this point, you have loose kielbasa that
+can be fried up as a burger for a delicious lunch.</li>
+<li>Fill the sausage stuffing container with the kielbasa. Place the casing over
+the tube and slowly extrude the sausage into the casing.</li>
+<li>Once the sausage is stuffed, twist into links by pinching together and
+twisting the casing.</li>
+<li>Hang the sausages to dry for a few hours until the outside casing is no
+longer wet.</li>
+<li>Meanwhile set up the smoker (weber grill, smokehouse, electric smoker, etc).</li>
+<li>Smoke the kielbasa until the internal temperature reaches 150 F (65 C).</li>
+<li>Enjoy the kielbasa with sauerkraut, on sandwiches, etc.</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../preserves/kabanosy.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../preserves/moms-pickles.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../preserves/kabanosy.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../preserves/moms-pickles.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

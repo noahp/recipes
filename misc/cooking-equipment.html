@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>cooking-equipment - Recipes</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../index.html">Readme</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> baking</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../baking/beignets.html"><strong aria-hidden="true">1.1.</strong> beignets</a></li><li class="chapter-item expanded "><a href="../baking/english-muffins.html"><strong aria-hidden="true">1.2.</strong> english-muffins</a></li><li class="chapter-item expanded "><a href="../baking/garlic-naan.html"><strong aria-hidden="true">1.3.</strong> garlic-naan</a></li><li class="chapter-item expanded "><a href="../baking/hamburger-buns.html"><strong aria-hidden="true">1.4.</strong> hamburger-buns</a></li><li class="chapter-item expanded "><a href="../baking/madelines.html"><strong aria-hidden="true">1.5.</strong> madelines</a></li><li class="chapter-item expanded "><a href="../baking/moms-cookies.html"><strong aria-hidden="true">1.6.</strong> moms-cookies</a></li><li class="chapter-item expanded "><a href="../baking/popover-muffins.html"><strong aria-hidden="true">1.7.</strong> popover-muffins</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> mains</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../mains/beef-stew.html"><strong aria-hidden="true">2.1.</strong> beef-stew</a></li><li class="chapter-item expanded "><a href="../mains/bibimbap.html"><strong aria-hidden="true">2.2.</strong> bibimbap</a></li><li class="chapter-item expanded "><a href="../mains/butter-chicken.html"><strong aria-hidden="true">2.3.</strong> butter-chicken</a></li><li class="chapter-item expanded "><a href="../mains/crepes.html"><strong aria-hidden="true">2.4.</strong> crepes</a></li><li class="chapter-item expanded "><a href="../mains/dutch-baby.html"><strong aria-hidden="true">2.5.</strong> dutch-baby</a></li><li class="chapter-item expanded "><a href="../mains/falafel.html"><strong aria-hidden="true">2.6.</strong> falafel</a></li><li class="chapter-item expanded "><a href="../mains/ny-pizza.html"><strong aria-hidden="true">2.7.</strong> ny-pizza</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">3.</strong> misc</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../misc/cooking-equipment.html" class="active"><strong aria-hidden="true">3.1.</strong> cooking-equipment</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> preserves</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../preserves/andouille-sausage.html"><strong aria-hidden="true">4.1.</strong> andouille-sausage</a></li><li class="chapter-item expanded "><a href="../preserves/chili-crisp.html"><strong aria-hidden="true">4.2.</strong> chili-crisp</a></li><li class="chapter-item expanded "><a href="../preserves/kabanosy.html"><strong aria-hidden="true">4.3.</strong> kabanosy</a></li><li class="chapter-item expanded "><a href="../preserves/kielbasa.html"><strong aria-hidden="true">4.4.</strong> kielbasa</a></li><li class="chapter-item expanded "><a href="../preserves/moms-pickles.html"><strong aria-hidden="true">4.5.</strong> moms-pickles</a></li><li class="chapter-item expanded "><a href="../preserves/pancetta.html"><strong aria-hidden="true">4.6.</strong> pancetta</a></li><li class="chapter-item expanded "><a href="../preserves/pickled-fresno-chilis.html"><strong aria-hidden="true">4.7.</strong> pickled-fresno-chilis</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">5.</strong> sides</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../sides/crispy-potatoes.html"><strong aria-hidden="true">5.1.</strong> crispy-potatoes</a></li><li class="chapter-item expanded "><a href="../sides/egg-rolls.html"><strong aria-hidden="true">5.2.</strong> egg-rolls</a></li><li class="chapter-item expanded "><a href="../sides/elote-street-corn.html"><strong aria-hidden="true">5.3.</strong> elote-street-corn</a></li><li class="chapter-item expanded "><a href="../sides/hard-boiled-eggs.html"><strong aria-hidden="true">5.4.</strong> hard-boiled-eggs</a></li><li class="chapter-item expanded "><a href="../sides/watermelon-feta-salad.html"><strong aria-hidden="true">5.5.</strong> watermelon-feta-salad</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Recipes</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="-cooking-equipment"><a class="header" href="#-cooking-equipment">🛠️ Cooking Equipment</a></h1>
+<p><em>Idea from https://tylertringas.com/cooking-for-founders/</em></p>
+<h2 id="pots-and-pans"><a class="header" href="#pots-and-pans">Pots and pans</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Cuisinart-733-30H-Classic-Stainless-2-Quart/dp/B00008CM6B">large stainless saute
+pan</a></p>
+<p><em>cook long pasta in it!</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/">12&quot; stainless
+skillet</a></p>
+<p><em>saute dishes etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Calphalon-Tri-Ply-Stainless-Cookware-2-quart/dp/B003L0ZNYY">2.5qt + 4.5qt sauce
+pans</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/AmazonBasics-Enameled-Covered-Dutch-7-3-Quart/dp/B073Q9PSWD">7.5qt dutch
+oven</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/cuisinel-Pre-Seasoned-Cookware-Heat-Resistant-Induction/dp/B071G3B139">cast iron
+skillet</a></p>
+<p><em>searing on stove top, cornbread in the oven, etc. i prefer to cook acidic
+dishes in the stainless to keep the seasoning</em></p>
+</li>
+<li>
+<p><a href="todo">big 3 gallon stock pot</a></p>
+<p><em>can use it for pasta as well as stocks</em></p>
+</li>
+</ul>
+<h2 id="baking"><a class="header" href="#baking">Baking</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Nordic-Ware-43172-Set-Half-Nonstick/dp/B07BZLZFRG">half sheet pans + racks</a></p>
+<p><em>so useful; roasting veggies, prep, cookies, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Pyrex-SYNCHKG106070-Basics-Baking-Dishes/dp/B07794QZKC">pyrex baking dish</a></p>
+<p><em>roast chicken, whole vegetables (sheet trays are better for cut vegetables)</em></p>
+</li>
+<li>
+<p>silicone baking sheets</p>
+<p><em>reusable parchment</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Conductive-Cooking-Square-Deluxe-Version/dp/B085SW7PG6">baking steel</a></p>
+<p><em>so expensive 😢 but really improves pizza crust. use it for quesadillas or
+smash bugers on the stove top, or making english muffins</em></p>
+</li>
+<li>
+<p>parchment paper</p>
+<p><em>useful in a lot of places; cut a small square when smashing smash burgers and
+it'll keep your spatula from sticking; cook bacon for a crowd by lining a
+sheet tray with it</em></p>
+</li>
+</ul>
+<h2 id="tools"><a class="header" href="#tools">Tools</a></h2>
+<ul>
+<li>
+<p>2 stainless steel tongs</p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B003HEOLXI/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">fish turner spatula</a></p>
+<p><em>so useful. pancakes, stirring vegetables, cooking eggs, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/tablecraft-w12-12-beechwood-wooden-spoon/40712WOOD.html">1-2 big wooden spoons</a></p>
+<p><em>stirring stuff, tasting</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Wood-Mixing-Cooking-Spatula-Resistant/dp/B07MXQDV65">2 big wooden spatulas</a></p>
+<p><em>scraping, stirring</em></p>
+</li>
+<li>
+<p><a href="https://gir.co/products/spatula?variant=26882837381184">silicone spoon</a></p>
+<p><em>very extravagant, but super handy for scraping the last bit of sauce out of a
+pan. kinda overlaps with below though</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Cooptop-Silicone-Spatula-Set-Resistant/dp/B082F6V7FV/">rubber
+spatula</a></p>
+<p><em>this is a nice set with the 3 i use most (small, large, spoon-like)</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B07V7GZY16/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">large
+grater</a></p>
+<p><em>i broke some of those handled graters &gt;_&lt; which are frustratingly NOT a
+single piece. this set has been a lot more reliable and has a nice large
+grating surface</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B004JKUWBO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">microplane</a></p>
+<p><em>super useful; cheese, citrus, garlic/alliums, nutmeg, etc.</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/dp/B005DPMQR2/?coliid=I69QCBQX62MBF&amp;colid=28281Z0X82BLW&amp;psc=0">nice pair of kitchen
+shears</a></p>
+<p><em>breaking down poultry, cutting herbs. i use mine for ton of miscellaneous
+tasks</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B007WQ9YNO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">rice
+cooker</a></p>
+<p><em>you can cook beans and lentils and other grains in these too!</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Mueller-Austria-Ultra-Stick-Multi-Purpose-Attachment/dp/B075X1KPLZ">immersion blender</a></p>
+<p><em>sauces, mayonnaise</em></p>
+</li>
+<li>
+<p><a href="todo">citrus juicer</a></p>
+</li>
+<li>
+<p><a href="todo">large mortar and pestle</a></p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/14-stainless-steel-piano-whip-whisk/92247034.html">whisk</a></p>
+<p>a nice big piano wire whisk, 12 or 14&quot;, handy for mixing dry or wet
+ingredients</p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/13-wooden-rolling-pin/407ROLLPNW13.html">rolling pin</a></p>
+<p>nothing fancy, but necessary for making laminated doughs (pie crusts,
+biscuits, pastries). i end up using my <a href="https://www.webstaurantstore.com/ateco-20175-20-maple-wood-tapered-french-rolling-pin/14420175.html">french style rolling
+pin</a>
+more often tbh (easier to clean, more durable)</p>
+</li>
+<li>
+<p><a href="https://www.webstaurantstore.com/4-oz-one-piece-stainless-steel-ladle/92246814.html">metal ladle</a></p>
+<p>useful for serving soups / stews / chili portions. also can be used for wok
+cooking, pancakes</p>
+</li>
+</ul>
+<h2 id="prep"><a class="header" href="#prep">Prep</a></h2>
+<p>The references list is spot on for this stuff:
+https://tylertringas.com/cooking-for-founders/</p>
+<p>Some additions:</p>
+<ul>
+<li>
+<p><a href="https://www.webstaurantstore.com/anchor-hocking-81605ahg18-2-qt-glass-measuring-cup/55081605A.html">large pourable
+container</a></p>
+<p>i use this for pancakes + madelines + popovers. saves cleaning an extra bowl</p>
+</li>
+</ul>
+<h2 id="knives"><a class="header" href="#knives">Knives</a></h2>
+<p>Probably most controversial:</p>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B005P0OJ4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">2 8-inch commercial chef's
+knives</a></p>
+<p><em>you can spend a ton of money on knives if you like. i've had extremely good
+results with these knives; bomber, sharpen easily and very sharp. clean and
+dry immediately after using them. i used to use a japanese water stone to
+sharpen, but now i just use one of those pocket ceramic sharpeners, which
+works great on these knives</em></p>
+</li>
+</ul>
+<p>You <strong>DON'T</strong> need a bread/serrated knife. A sharp chef's knife is better in every
+application IMO.</p>
+<p>I rarely/never use a paring knife; pretty much any kitchen task is easier with a
+chef's knife for me.</p>
+<p>That's it. That's all you need for knives.</p>
+<p>The advice on cutting boards here is spot on (at least 1 large wooden, 12&quot;x18&quot;
+or bigger, and 2-3 small wooden or plastic):
+https://tylertringas.com/cooking-for-founders/</p>
+<h2 id="storage"><a class="header" href="#storage">Storage</a></h2>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/DuraHome-Containers-Leakproof-Container-Microwavable/dp/B075X416X8">deli
+containers</a></p>
+<p>these are super. they all use the same lids, nest compactly, leakproof, clear
+so you can tell what's in them. cheap. reusable. you can toss them if they
+break.</p>
+</li>
+</ul>
+<h2 id="exotics"><a class="header" href="#exotics">Exotics</a></h2>
+<p>This is stuff I use less frequently but is handy.</p>
+<ul>
+<li>
+<p><a href="https://www.amazon.com/Grinder-capacity-Electric-Catcher-stainless/dp/B08HK6VCXP">spice
+grinder</a></p>
+<p><em>I have a model sortof similar to this one. I use it when grinding whole
+toasted sichuan peppercorn, toasted whole spices for indian food, etc</em></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/gp/product/B001AVREHA">molcajete</a></p>
+<p><em>guacamole tastes better out of it, might be all in my head though 😅 also
+useful for making aioli and pesto</em></p>
+</li>
+<li>
+<p>stand mixer</p>
+<p><em>I use this pretty rarely but it is useful when making enriched doughs like
+brioche</em></p>
+</li>
+<li>
+<p>food processor</p>
+<p><em>also pretty rarely used, but great for pesto or lazy biscuits, breadcrumbs</em></p>
+</li>
+<li>
+<p>cooking chopsticks</p>
+<p><em>these are handy for stirring and moving stuff when tongs are a little too
+hefty. cheap to have around. I don't use mine as much as I should!</em></p>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../mains/ny-pizza.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../preserves/andouille-sausage.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../mains/ny-pizza.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../preserves/andouille-sausage.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
