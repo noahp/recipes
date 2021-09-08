@@ -7,4 +7,9 @@
 set -ex
 
 python3 generate-summary.py
-mdbook serve --hostname '0.0.0.0'
+
+if [ -n "${MDBOOK_JUST_BUILD}" ]; then
+    mdbook build
+else
+    mdbook serve --hostname '0.0.0.0'
+fi

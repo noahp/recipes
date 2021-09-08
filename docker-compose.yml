@@ -8,6 +8,10 @@ services:
     # ❯ DOCKER_USER="$(id -u):$(id -g)" docker-compose up
     user: $DOCKER_USER
 
+    # pass this env variable through
+    environment:
+      - MDBOOK_JUST_BUILD=${MDBOOK_JUST_BUILD}
+
     stdin_open: true
     tty: true  # needed to bypass blocking python sys.stdin.read()
     ports:
