@@ -16,12 +16,32 @@ All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.
 - 0.25% Cure #1
 - 0.187% Garlic Powder
 - 0.125% Whole Mustard Seed
-- 0.0625% Pickling Spice
+- 0.0625% Pickling Spice*
 - 0.0313% Marjoram
 - Water
 - Sausage Casings
 
+*For the pickling spice, I didn't have any on hand so I cobbled up the
+following:
+
+Equal parts:
+
+- dried bay leaves
+- allspice berries (or powdered) (can sub junpier berries)
+- coriander seeds (or powdered)
+- ground ginger
+
+Toast the whole spices in a dry pan, then roughly grind them in a mortar and
+pestle or spice grinder.
+
+Other optional spices are cardamom, star anise, cinnamon.
+
+I also increased the mustard seed a touch because I like it.
+
 ### Ingredients calculator
+
+It's really important to get the salt and cure quantities precise; the spices
+are definitely flexible.
 
 <li><input type="text" id="meat_grams" size="3" /> grams of 70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
 
@@ -31,7 +51,7 @@ All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.
 <li><b id="Cure #1">?</b> Cure #1</li>
 <li><b id="Garlic Powder">?</b> Garlic Powder</li>
 <li><b id="Whole Mustard Seed">?</b> Whole Mustard Seed</li>
-<li><b id="Pickling Spice">?</b> Pickling Spice (sub crushed bay leaves and coriander powder</li>
+<li><b id="Pickling Spice">?</b> Pickling Spice</li>
 <li><b id="Marjoram">?</b> Marjoram</li>
 <li>Water</li>
 <li>Sausage Casings</li>
