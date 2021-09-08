@@ -6,7 +6,7 @@ interior but not the classic gigantic puffballs*
 [Original
 recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
 
-![muffins](./pics/popovers.jpg)
+![muffins](../pics/popovers.jpg)
 
 ## Ingredients
 

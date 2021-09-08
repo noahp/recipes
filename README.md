@@ -6,20 +6,20 @@ See the formatted result at https://noahpendleton.com/recipes/ .
 
 ## development
 
-I wrote the world's worst static site gen. Could've probably been bash tbh, but
-wrote it in python out of sheer laziness.
-
-For testing the site with auto reload, you might do the following (requires
-Docker):
+This uses [mdBook](https://github.com/rust-lang/mdBook) for static site
+generation.
 
 ```bash
-# file watcher
-sudo apt install entr
-
-# serve it with python, and rebuild everything on any file change
-# entr will nicely kill the child process on change ❤️
-git ls-files | \
-  entr -r bash -c '(./test.sh && python3 -m http.server --directory public)'
+# assumes you have rust + cargo installed already
+cargo install mdbook
+mdbook serve
+# now open the generated site to view locally
 ```
 
-Now open http://0.0.0.0:8000/ in your browser.
+You can also use these commands to serve the book from docker, without
+installing anything locally (requires docker-compose):
+
+```bash
+# build and run
+DOCKER_USER="$(id -u):$(id -g)" docker-compose up --build
+```

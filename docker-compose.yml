@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mdbook:
+    container_name: mdbook
+    build: .
+
+    # need to pass this in on command line. this prevents running as root
+    # ❯ DOCKER_USER="$(id -u):$(id -g)" docker-compose up
+    user: $DOCKER_USER
+
+    stdin_open: true
+    tty: true  # needed to bypass blocking python sys.stdin.read()
+    ports:
+      - 3000:3000
+      - 3001:3001
+    volumes:
+      - ${PWD}:/book
+    command:
+      - wrapper.sh

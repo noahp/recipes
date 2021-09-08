@@ -6,8 +6,10 @@ on:
       - master
 
 jobs:
-  ci:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       # checkout v2, with recursive submodule update
       - name: Checkout 🛎️
@@ -15,12 +17,17 @@ jobs:
         with:
           submodules: recursive
 
-      # Build everything (in docker)
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: '0.4.10'
+
       - name: Build 🔨
-        run: ./test.sh
+        run: mdbook build
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./book
