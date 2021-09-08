@@ -2,9 +2,12 @@
 authors = ["Noah Pendleton"]
 language = "en"
 multilingual = false
-src = "src"
 title = "Recipes"
 
+[output.html]
+additional-js = ["scripts/update-favicon.js"]
+edit-url-template = "https://github.com/noahp/recipes/edit/main/{path}"
+git-repository-url = "https://github.com/noahp/recipes/tree/main"
 
 [preprocessor.generate_summary]
 # this hook generates the src/SUMMARY.md file when it runs. mdbook loads the

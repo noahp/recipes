@@ -21,7 +21,7 @@ installing anything locally (requires docker-compose):
 
 ```bash
 # mdbook serve until ctrl+c
-DOCKER_USER="$(id -u):$(id -g)" docker-compose run mdbook
+DOCKER_USER="$(id -u):$(id -g)" docker-compose up --build
 
 # to just build into ./book/ and exit
 DOCKER_USER="$(id -u):$(id -g)" MDBOOK_JUST_BUILD=1 docker-compose up --build

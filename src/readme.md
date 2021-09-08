@@ -1,4 +1,4 @@
-# Recipes
+# 🗂️ Recipes
 
 Collection of cooking recipes I've been using over the years.
 
