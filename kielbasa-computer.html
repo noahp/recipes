@@ -1,0 +1,36 @@
+<li><input type="text" id="meat_grams" size="3" />grams of 70% Lean / 30 % Fat Pork Meat (or beef, venison, etc.)</li>
+
+<li><b id="Salt">?</b> Salt</li>
+<li><b id="Brown Sugar">?</b> Brown Sugar</li>
+<li><b id="Black Pepper">?</b> Black Pepper</li>
+<li><b id="Cure #1">?</b> Cure #1</li>
+<li><b id="Garlic Powder">?</b> Garlic Powder</li>
+<li><b id="Whole Mustard Seed">?</b> Whole Mustard Seed</li>
+<li><b id="Pickling Spice">?</b> Pickling Spice (sub crushed bay leaves and coriander powder</li>
+<li><b id="Marjoram">?</b> Marjoram</li>
+<li>Water</li>
+<li>Sausage Casings</li>
+
+<script type="text/javascript">
+    var meat_grams = document.getElementById('meat_grams');
+
+    var conversions = {
+        "Salt": .0175,
+        "Brown Sugar": .0175,
+        "Black Pepper": .005,
+        "Cure #1": .0025,
+        "Garlic Powder": .00187,
+        "Whole Mustard Seed": .00125,
+        "Pickling Spice": .000625,
+        "Marjoram": .000313,
+    };
+
+    meat_grams.addEventListener('keyup', function () {
+        for (let ingredient in conversions) {
+            var gram_value = meat_grams.value * conversions[ingredient];
+            var text = gram_value.toFixed(2) + "g "
+            document.getElementById(ingredient).innerHTML = text;
+            console.log(ingredient + text)
+        }
+    });
+</script>

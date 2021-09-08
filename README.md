@@ -17,6 +17,7 @@
 - [🍔 hamburger-buns](hamburger-buns.html)
 - [🥚 hard-boiled-eggs](hard-boiled-eggs.html)
 - [🌭 kabanosy](kabanosy.html)
+- [🍖 kielbasa](kielbasa.html)
 - [🐚 madelines](madelines.html)
 - [🍪 moms-cookies](moms-cookies.html)
 - [🥒 moms-pickles](moms-pickles.html)
