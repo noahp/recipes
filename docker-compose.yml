@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   mdbook:
     container_name: mdbook
@@ -13,7 +13,7 @@ services:
       - MDBOOK_JUST_BUILD=${MDBOOK_JUST_BUILD}
 
     stdin_open: true
-    tty: true  # needed to bypass blocking python sys.stdin.read()
+    tty: true # needed to bypass blocking python sys.stdin.read()
     ports:
       - 3000:3000
       - 3001:3001

@@ -1,20 +1,20 @@
 # 🥓 Pancetta
 
-Original Recipe from *Home Production of Quality Meats and Sausages by Stanley Marianski*
+Original Recipe from _Home Production of Quality Meats and Sausages by Stanley Marianski_
 
 ## Ingredients
 
-|Ingredient|Metric|US|
-|---|---|---|
-|pork belly|1000 g|2.20 lbs.|
-|salt|28 g|5 tsp|
-|Cure #1|3.2 g|¾ tsp|
-|sugar|5.0 g|1 tsp|
-|white pepper|4.0 g|2 tsp|
-|nutmeg|1.0 g|½ tsp|
-|fennel|2.0 g|1 tsp|
-|red pepper|1.0 g|½ tsp|
-|garlic powder|1.5 g|½ tsp|
+| Ingredient    | Metric | US        |
+| ------------- | ------ | --------- |
+| pork belly    | 1000 g | 2.20 lbs. |
+| salt          | 28 g   | 5 tsp     |
+| Cure #1       | 3.2 g  | ¾ tsp     |
+| sugar         | 5.0 g  | 1 tsp     |
+| white pepper  | 4.0 g  | 2 tsp     |
+| nutmeg        | 1.0 g  | ½ tsp     |
+| fennel        | 2.0 g  | 1 tsp     |
+| red pepper    | 1.0 g  | ½ tsp     |
+| garlic powder | 1.5 g  | ½ tsp     |
 
 ## Directions
 
@@ -33,4 +33,4 @@ Original Recipe from *Home Production of Quality Meats and Sausages by Stanley M
 9. Hang for 3 weeks at 54° F (12° C).
 10. Refrigerate.
 
-*Notes: Pancetta can be rolled or straight.*
+_Notes: Pancetta can be rolled or straight._

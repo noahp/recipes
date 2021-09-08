@@ -1,7 +1,7 @@
 # 🥚 Hard-Boiled Eggs
 
 [Original
-recipe](https://www.seriouseats.com/recipes/2009/10/perfect-boiled-eggs-recipe.html#:~:text=Bring%203%20quarts%20(2.8L,Serve%20immediately%20if%20serving%20hot.)
+recipe](https://www.seriouseats.com/recipes/2009/10/perfect-boiled-eggs-recipe.html)
 
 ## Ingredients
 

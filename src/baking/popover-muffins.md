@@ -1,7 +1,7 @@
 # 🧁 Popover muffins
 
-*These are more muffin-like in shape and size, still with a good popover
-interior but not the classic gigantic puffballs*
+_These are more muffin-like in shape and size, still with a good popover
+interior but not the classic gigantic puffballs_
 
 [Original
 recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
@@ -20,8 +20,8 @@ recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
 
 ## Directions
 
-*Note: if you have a large pourable container like a large pyrex, mix everything
-in there and you can pour directly into the muffin cups*
+_Note: if you have a large pourable container like a large pyrex, mix everything
+in there and you can pour directly into the muffin cups_
 
 1. Preheat oven to 450°F. Grease popover pan well with butter.
 2. In a large bowl, whisk together milk, eggs, and salt (and optional sugar +
