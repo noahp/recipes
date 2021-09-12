@@ -105,6 +105,6 @@ salt.
 6. Meanwhile set up the smoker (weber grill, smokehouse, electric smoker, etc).
 7. Smoke the kielbasa until the internal temperature reaches 150 F (65 C).
 8. Rinse or immerse with cold water to bring the sausages back to room
-   tmperature, then leave them on a rack to "bloom" for about 2 hrs (this will
+   temperature, then leave them on a rack to "bloom" for about 2 hrs (this will
    deepen their color to a nice dark red).
-8. Enjoy the kielbasa with sauerkraut, on sandwiches, etc. Freeze any extra.
+9. Enjoy the kielbasa with sauerkraut, on sandwiches, etc. Freeze any extra.
