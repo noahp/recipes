@@ -16,12 +16,12 @@ All ingredients are % of meat; for 1000g meat, 1.75% = 17.5g.
 - 0.25% Cure #1
 - 0.187% Garlic Powder
 - 0.125% Whole Mustard Seed
-- 0.0625% Pickling Spice*
+- 0.0625% Pickling Spice\*
 - 0.0313% Marjoram
 - Water
 - Sausage Casings
 
-*For the pickling spice, I didn't have any on hand so I cobbled up the
+\*For the pickling spice, I didn't have any on hand so I cobbled up the
 following:
 
 Equal parts:
