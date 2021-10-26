@@ -7,12 +7,22 @@
 - 3 medium Italian eggplants (about 2 pounds/900g total), pricked all over with
   a fork
 - 2 tablespoons (30 ml) lemon juice from 1 lemon, plus more as desired
-- 3 medium cloves garlic, minced
-- 3 tablespoons (45 ml) tahini
 - 1/3 cup (80 ml) extra-virgin olive oil, plus more for serving
 - 1/4 cup chopped fresh parsley leaves
 - 1/2 teaspoon (1.4 grams) kosher salt; for table salt, use about half as much
   by volume or the same by weight
+- 3-4 medium cloves roasted garlic (see note)
+
+> Note: the original recipe uses fresh garlic + tahini, but I prefer roasted
+> garlic and no tahini. For the roasted garlic, take all but the innermost paper
+> off a whole head of garlic, then use a knife to trim the top 1/4" (5mm) or so
+> off the top of each clove (chop your knife through the top of the head instead
+> of doing each clove indivudally), place in a small oven-safe ramikin and
+> drizzle a tablespoon or two of olive oil over the top. Roast in the oven while
+> the eggplants are broiling- might need a little more time, set the oven to
+> ~400F to finish. Looking for a tiny bit of toastiness on the top, but not
+> burned. You'll only need ~1/3 of the head, either scale up the recipe (yum!)
+> or use it for mashed potatoes, soup, pasta sauce, etc.
 
 ## Directions
 
@@ -31,21 +41,18 @@
    and bottom ends should not meet any resistance). Remove from oven and gather
    up foil, crimping it around eggplants to form a sealed package. Let eggplants
    rest for 15 minutes. Continue to step 3.
-3. Three eggplants on a foil-rimmed baking sheet Open foil package. Working with
-   one eggplant at a time, use a sharp paring knife to slit each eggplant open
-   lengthwise. Carefully scoop out soft flesh with a large spoon and transfer to
-   a fine-mesh strainer set in a large bowl. Once all eggplant is scooped, pick
-   out any stray bits of skin and blackened flesh and discard.
-4. Cooked eggplant flesh in a metal strainer held over a bowl Transfer eggplant
-   to a salad spinner, distributing it evenly around the perimeter. Spin gently
-   until all excess moisture is extracted. Discard all drippings, wipe out large
-   bowl, and return eggplant to bowl.
-5. Cooked eggplant flesh in the bowl of a salad spinner Add lemon juice and
-   garlic to eggplant and stir vigorously with a fork until eggplant breaks down
-   into a rough paste, about 1 1/2 minutes. Stirring constantly and vigorously,
-   add tahini, followed by the olive oil in a thin, steady stream. The mixture
-   should become pale and creamy. Stir in parsley and season to taste with salt,
-   plus more lemon juice if desired.
-6. Adding olive oil in a thin stream to a metal bowl of mashed eggplant Transfer
-   to a serving bowl, drizzle with olive oil, and serve with warm pita bread or
-   vegetables for dipping.
+3. Open foil package. Working with one eggplant at a time, use a sharp paring
+   knife to slit each eggplant open lengthwise. Carefully scoop out soft flesh
+   with a large spoon and transfer to a fine-mesh strainer set in a large bowl.
+   Once all eggplant is scooped, pick out any stray bits of skin and blackened
+   flesh and discard.
+4. Transfer eggplant to a salad spinner, distributing it evenly around the
+   perimeter. Spin gently until all excess moisture is extracted. Discard all
+   drippings, wipe out large bowl, and return eggplant to bowl.
+5. Add lemon juice and garlic to eggplant and stir vigorously with a fork until
+   eggplant breaks down into a rough paste, about 1 1/2 minutes. Stirring
+   constantly and vigorously, add tahini, followed by the olive oil in a thin,
+   steady stream. The mixture should become pale and creamy. Stir in parsley and
+   season to taste with salt, plus more lemon juice if desired.
+6. Transfer to a serving bowl, drizzle with olive oil, and serve with warm pita
+   bread or vegetables for dipping.
