@@ -1,4 +1,4 @@
-# 🍔 Hamburger buns
+# 🍔 Hamburger Buns
 
 [Original recipe](https://www.youtube.com/watch?v=gTGSUYMu6Ns)
 

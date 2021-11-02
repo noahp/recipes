@@ -1,4 +1,4 @@
-# 🍛 Butter chicken (murgh makhani)
+# 🍛 Butter Chicken (Murgh Makhani)
 
 [Original recipe](https://www.reddit.com/r/food/comments/d1a962/homemade_butter_chicken_with_garlic_naan/ezk2m4a/)
 

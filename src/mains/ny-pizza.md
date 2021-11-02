@@ -1,4 +1,4 @@
-# 🍕 NY pizza
+# 🍕 New York Style Pizza
 
 [Original
 recipe](https://www.reddit.com/r/FoodPorn/comments/e2fhg5/second_attempt_on_new_yorkstyle_pizza/f8vcyd6/)

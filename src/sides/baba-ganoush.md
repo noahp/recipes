@@ -11,18 +11,10 @@
 - 1/4 cup chopped fresh parsley leaves
 - 1/2 teaspoon (1.4 grams) kosher salt; for table salt, use about half as much
   by volume or the same by weight
-- 3-4 medium cloves roasted garlic (see note)
+- 3-4 medium cloves roasted garlic (see [recipe](../misc/roasted-garlic.html))
 
 > Note: the original recipe uses fresh garlic + tahini, but I prefer roasted
-> garlic and no tahini. For the roasted garlic, take all but the innermost paper
-> off a whole head of garlic, then use a knife to trim the top 1/4" (5mm) or so
-> off the top of each clove (chop your knife through the top of the head instead
-> of doing each clove indivudally), place in a small oven-safe ramikin and
-> drizzle a tablespoon or two of olive oil over the top. Roast in the oven while
-> the eggplants are broiling- might need a little more time, set the oven to
-> ~400F to finish. Looking for a tiny bit of toastiness on the top, but not
-> burned. You'll only need ~1/3 of the head, either scale up the recipe (yum!)
-> or use it for mashed potatoes, soup, pasta sauce, etc.
+> garlic and no tahini.
 
 ## Directions
 

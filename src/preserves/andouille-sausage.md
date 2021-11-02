@@ -1,4 +1,4 @@
-# 🌭 Andouille sausage
+# 🌭 Andouille Sausage
 
 [Original recipe](https://tasteofartisan.com/andouille-sausage/)
 

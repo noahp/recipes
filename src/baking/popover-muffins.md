@@ -1,4 +1,4 @@
-# 🧁 Popover muffins
+# 🧁 Popover Muffins
 
 _These are more muffin-like in shape and size, still with a good popover
 interior but not the classic gigantic puffballs_
