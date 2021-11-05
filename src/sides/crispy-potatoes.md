@@ -31,4 +31,4 @@ recipe](https://www.seriouseats.com/recipes/2016/12/the-best-roast-potatoes-ever
 7. toss with the reserved herb/garlic mixture, add more salt + pepper if
    necessary
 
-![crispy potatoes](pics/crispy-potatoes.jpg)
+![crispy potatoes](../pics/crispy-potatoes.jpg)
