@@ -1,4 +1,4 @@
-# 🥔 Crispy potatoes
+# 🥔 Crispy Potatoes
 
 [Original
 recipe](https://www.seriouseats.com/recipes/2016/12/the-best-roast-potatoes-ever-recipe.html)
