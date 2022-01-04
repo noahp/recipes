@@ -9,13 +9,19 @@ References:
 
 Makes about 1 pint of pickles per cucumber.
 
+For the pickles:
+
 - 1 english cucumber
+- 1 teaspoon white sugar
+- 1 teaspoon salt
+
+For the dressing:
+
 - 1 teaspoon of fresh ginger, either grated or finely diced
 - 1-2 cloves garlic, either grated or finely diced
 - 1 teaspoon red miso paste
 - 1 teaspoon sesame oil
-- 1 teaspoon white sugar
-- 1 teaspoon salt
+- 1 teaspoon rice wine vinegar
 - 1 teaspoon light soy sauce
 - 1-2 teaspoons Korean chile flake
 
@@ -35,6 +41,7 @@ Makes about 1 pint of pickles per cucumber.
    - garlic
    - red miso paste
    - sesame oil
+   - rice wine vinegar
    - light soy sauce
    - korean chile flake
 
