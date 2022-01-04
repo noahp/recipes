@@ -1,7 +1,10 @@
-# 🧁 Popover Muffins
+# 🧁 Popovers
 
-_These are more muffin-like in shape and size, still with a good popover
-interior but not the classic gigantic puffballs_
+_The first time I made these, I didn't fill the popover tin cups enough, see
+picture. Still delicious but not as airy. Filling the cups about 3/4 to the top
+has better results, and you really want a popover-specific pan (I have this one,
+which makes smaller muffins:
+https://www.amazon.com/Chicago-Metallic-Professional-Mini-Popover-10-75-Inch/dp/B00004R911/)_
 
 [Original
 recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
