@@ -28,7 +28,8 @@
    few minutes, or squeeze and pat dry with a towel
 2. add the remainder of the filling ingredients and mix together
 3. if using wonton wrappers:
-   1. use your finger to wipe some beaten egg on the left, right, and bottom edge
+   1. use your finger to wipe some beaten egg on the left, right, and bottom
+      edge
    2. add a little filling to the middle of the wrap
    3. take the top edge and roll under the bottom edge
    4. press to crimp the left and right sides
@@ -39,6 +40,5 @@
 5. to fry, add about 1/2 inch of oil to your pan, turn on high heat. when oil
    spatters when a drop of water is tossed into it, fry the egg rolls. the
    wonton-wrapped ones will fry in about 10-15 seconds a side when the oil is
-   hot.
-   I use a fork to flip them over, then tongs to remove. let cool a little on
-   paper towels
+   hot. I use a fork to flip them over, then tongs to remove. let cool a little
+   on paper towels

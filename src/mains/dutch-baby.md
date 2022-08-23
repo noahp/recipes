@@ -4,11 +4,11 @@
 
 ## Ingredients
 
-_Note- 2 eggs per person is about the right amount,
-scale recipe accordingly, and use multiple pans_
+_Note- 2 eggs per person is about the right amount, scale recipe accordingly,
+and use multiple pans_
 
-- 3 large eggs, left at room temperature for 30 minutes
-  (put them in a bowl of hot water to speed up)
+- 3 large eggs, left at room temperature for 30 minutes (put them in a bowl of
+  hot water to speed up)
 - 3 tablespoons sugar, plus more for garnish
 - 1/2 teaspoon cinnamon
 - 1/4 teaspoon salt

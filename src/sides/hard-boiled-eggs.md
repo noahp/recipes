@@ -1,7 +1,6 @@
 # 🥚 Hard-Boiled Eggs
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2009/10/perfect-boiled-eggs-recipe.html)
+[Original recipe](https://www.seriouseats.com/recipes/2009/10/perfect-boiled-eggs-recipe.html)
 
 ## Ingredients
 

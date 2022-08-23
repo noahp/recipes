@@ -1,6 +1,7 @@
 # 🥓 Pancetta
 
-Original Recipe from _Home Production of Quality Meats and Sausages by Stanley Marianski_
+Original Recipe from _Home Production of Quality Meats and Sausages by Stanley
+Marianski_
 
 ## Ingredients
 

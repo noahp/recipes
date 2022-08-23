@@ -1,6 +1,7 @@
 # 🧅 Pickled Red Onions
 
-[Original recipe)[https://www.ethanchlebowski.com/cooking-techniques-recipes/pickled-onions-forever>]
+[Original
+recipe)[https://www.ethanchlebowski.com/cooking-techniques-recipes/pickled-onions-forever>]
 
 ## Ingredients
 

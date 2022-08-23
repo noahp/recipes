@@ -1,7 +1,6 @@
 # 🍞 English Muffins
 
-[Original
-recipe](https://www.kingarthurflour.com/recipes/english-muffins-recipe)
+[Original recipe](https://www.kingarthurflour.com/recipes/english-muffins-recipe)
 
 ## Ingredients
 

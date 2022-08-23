@@ -6,8 +6,7 @@ has better results, and you really want a popover-specific pan (I have this one,
 which makes smaller muffins:
 https://www.amazon.com/Chicago-Metallic-Professional-Mini-Popover-10-75-Inch/dp/B00004R911/)_
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
+[Original recipe](https://www.seriouseats.com/recipes/2012/03/popover-recipe.html)
 
 ![muffins](../pics/popovers.jpg)
 

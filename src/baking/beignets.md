@@ -1,7 +1,6 @@
 # 🍩 Beignets
 
-[Original
-recipe](https://www.kingarthurflour.com/recipes/classic-beignets-recipe)
+[Original recipe](https://www.kingarthurflour.com/recipes/classic-beignets-recipe)
 
 ## Ingredients
 

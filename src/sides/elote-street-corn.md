@@ -1,7 +1,6 @@
 # 🌽 Elote (Street Corn)
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2013/07/mexican-street-corn-elotes-recipe.html)
+[Original recipe](https://www.seriouseats.com/recipes/2013/07/mexican-street-corn-elotes-recipe.html)
 
 ## Ingredients
 

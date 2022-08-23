@@ -1,7 +1,7 @@
 # 🍖 Kielbasa
 
-Recipe from [Ethan
-Chlebowski](https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-polish-kielbasa)
+Recipe from
+[Ethan Chlebowski](https://www.ethanchlebowski.com/cooking-techniques-recipes/how-to-make-polish-kielbasa)
 
 ## Ingredients
 

@@ -21,7 +21,8 @@ See also:
 1. Preheat oven to 400F
 2. Drizzle a few tablespoons of olive oil in a pyrex baking dish. Add the block
    of feta in the center, cherry tomatoes all around. Sprinkle the garlic over
-   the top and drizzle with the rest of the olive oil. Add fresh ground black pepper.
+   the top and drizzle with the rest of the olive oil. Add fresh ground black
+   pepper.
 3. Bake in the oven for 20-45 minutes, until the cheese and tomatoes are
    starting to brown on the top.
 4. Cook pasta per package directions.

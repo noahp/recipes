@@ -1,21 +1,22 @@
 # 🍲 Beef Stew
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2016/01/all-american-beef-stew-recipe.html)
+[Original recipe](https://www.seriouseats.com/recipes/2016/01/all-american-beef-stew-recipe.html)
 
 ## Ingredients
 
 - 4 cups homemade or store-bought low-sodium chicken stock (950mL)
 - 3 tablespoons tomato paste (2.5 ounces; 75g)
 - 1 tablespoon soy sauce (15ml)
-- 3 oil- or salt-packed anchovy filets, rinsed (or 1 tablespoon Asian fish sauce)
+- 3 oil- or salt-packed anchovy filets, rinsed (or 1 tablespoon Asian fish
+  sauce)
 - 1 tablespoon Worcestershire sauce (15ml)
 - 2 tablespoons vegetable oil
 - 3 pounds (1.25kg) whole boneless beef chuck roast, cut into 3 steaks
 - Kosher salt and freshly ground black pepper
 - 10 ounces white button mushroom, quartered
 - 4 medium carrots (10 ounces; 275g), 2 left whole, 2 cut into bite-sized pieces
-- 8 ounces frozen or fresh pearl onions (thawed if frozen, peeled if fresh) (225g)
+- 8 ounces frozen or fresh pearl onions (thawed if frozen, peeled if fresh)
+  (225g)
 - 1 large yellow onion, unpeeled, split in half (10 ounces; 275g)
 - 2 small stalks celery (3 ounces; 85g)
 - 3 medium cloves garlic, unpeeled

@@ -1,7 +1,6 @@
 # 🌶️ Chili Crisp
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2018/04/homemade-spicy-chili-crisp.html)
+[Original recipe](https://www.seriouseats.com/recipes/2018/04/homemade-spicy-chili-crisp.html)
 
 Makes 1 quart.
 

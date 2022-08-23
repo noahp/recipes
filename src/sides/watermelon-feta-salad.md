@@ -1,7 +1,6 @@
 # 🍉 Watermelon Feta Arugula Salad
 
-[Original
-recipe](https://www.seriouseats.com/recipes/2016/06/watermelon-feta-mint-salad-recipe.html)
+[Original recipe](https://www.seriouseats.com/recipes/2016/06/watermelon-feta-mint-salad-recipe.html)
 
 ## Ingredients
 

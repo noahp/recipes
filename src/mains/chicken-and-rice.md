@@ -1,7 +1,6 @@
 # 🍛 Chicken and Rice
 
-[Original
-recipe](https://www.ethanchlebowski.com/cooking-techniques-recipes/street-cart-chicken-amp-yellow-rice)
+[Original recipe](https://www.ethanchlebowski.com/cooking-techniques-recipes/street-cart-chicken-amp-yellow-rice)
 
 ## Ingredients
 

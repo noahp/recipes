@@ -1,7 +1,6 @@
 # 🥔 Austrian-Style Potato Salad (Erdäpfelsalat)
 
-[Original
-recipe](https://www.seriouseats.com/erdapfelsalat-austrian-style-potato-salad-recipe)
+[Original recipe](https://www.seriouseats.com/erdapfelsalat-austrian-style-potato-salad-recipe)
 
 _Note: I prefer the potato peels left on; the original recipe uses peeled
 potatoes and boils the skins with the potatoes for the starch_

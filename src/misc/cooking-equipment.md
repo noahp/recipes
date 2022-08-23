@@ -4,24 +4,19 @@ _Idea from https://tylertringas.com/cooking-for-founders/_
 
 ## Pots and pans
 
-- [large stainless saute
-  pan](https://www.amazon.com/Cuisinart-733-30H-Classic-Stainless-2-Quart/dp/B00008CM6B)
+- [large stainless saute pan](https://www.amazon.com/Cuisinart-733-30H-Classic-Stainless-2-Quart/dp/B00008CM6B)
 
   _cook long pasta in it!_
 
-- [12" stainless
-  skillet](https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/)
+- [12" stainless skillet](https://www.amazon.com/Cuisinart-8922-30H-Professional-Stainless-Skillet/dp/B00NAU9058/)
 
   _saute dishes etc_
 
-- [2.5qt + 4.5qt sauce
-  pans](https://www.amazon.com/Calphalon-Tri-Ply-Stainless-Cookware-2-quart/dp/B003L0ZNYY)
+- [2.5qt + 4.5qt sauce pans](https://www.amazon.com/Calphalon-Tri-Ply-Stainless-Cookware-2-quart/dp/B003L0ZNYY)
 
-- [7.5qt dutch
-  oven](https://www.amazon.com/AmazonBasics-Enameled-Covered-Dutch-7-3-Quart/dp/B073Q9PSWD)
+- [7.5qt dutch oven](https://www.amazon.com/AmazonBasics-Enameled-Covered-Dutch-7-3-Quart/dp/B073Q9PSWD)
 
-- [cast iron
-  skillet](https://www.amazon.com/cuisinel-Pre-Seasoned-Cookware-Heat-Resistant-Induction/dp/B071G3B139)
+- [cast iron skillet](https://www.amazon.com/cuisinel-Pre-Seasoned-Cookware-Heat-Resistant-Induction/dp/B071G3B139)
 
   _searing on stove top, cornbread in the oven, etc. i prefer to cook acidic
   dishes in the stainless to keep the seasoning_
@@ -76,13 +71,11 @@ _Idea from https://tylertringas.com/cooking-for-founders/_
   _very extravagant, but super handy for scraping the last bit of sauce out of a
   pan. kinda overlaps with below though_
 
-- [rubber
-  spatula](https://www.amazon.com/Cooptop-Silicone-Spatula-Set-Resistant/dp/B082F6V7FV/)
+- [rubber spatula](https://www.amazon.com/Cooptop-Silicone-Spatula-Set-Resistant/dp/B082F6V7FV/)
 
   _this is a nice set with the 3 i use most (small, large, spoon-like)_
 
-- [large
-  grater](https://www.amazon.com/gp/product/B07V7GZY16/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [large grater](https://www.amazon.com/gp/product/B07V7GZY16/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
   _i broke some of those handled graters >\_< which are frustratingly NOT a
   single piece. this set has been a lot more reliable and has a nice large
@@ -92,14 +85,12 @@ _Idea from https://tylertringas.com/cooking-for-founders/_
 
   _super useful; cheese, citrus, garlic/alliums, nutmeg, etc._
 
-- [nice pair of kitchen
-  shears](https://www.amazon.com/dp/B005DPMQR2/?coliid=I69QCBQX62MBF&colid=28281Z0X82BLW&psc=0)
+- [nice pair of kitchen shears](https://www.amazon.com/dp/B005DPMQR2/?coliid=I69QCBQX62MBF&colid=28281Z0X82BLW&psc=0)
 
   _breaking down poultry, cutting herbs. i use mine for ton of miscellaneous
   tasks_
 
-- [rice
-  cooker](https://www.amazon.com/gp/product/B007WQ9YNO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [rice cooker](https://www.amazon.com/gp/product/B007WQ9YNO/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
   _you can cook beans and lentils and other grains in these too!_
 
@@ -119,8 +110,8 @@ _Idea from https://tylertringas.com/cooking-for-founders/_
 - [rolling pin](https://www.webstaurantstore.com/13-wooden-rolling-pin/407ROLLPNW13.html)
 
   nothing fancy, but necessary for making laminated doughs (pie crusts,
-  biscuits, pastries). i end up using my [french style rolling
-  pin](https://www.webstaurantstore.com/ateco-20175-20-maple-wood-tapered-french-rolling-pin/14420175.html)
+  biscuits, pastries). i end up using my
+  [french style rolling pin](https://www.webstaurantstore.com/ateco-20175-20-maple-wood-tapered-french-rolling-pin/14420175.html)
   more often tbh (easier to clean, more durable)
 
 - [metal ladle](https://www.webstaurantstore.com/4-oz-one-piece-stainless-steel-ladle/92246814.html)
@@ -135,8 +126,7 @@ https://tylertringas.com/cooking-for-founders/
 
 Some additions:
 
-- [large pourable
-  container](https://www.webstaurantstore.com/anchor-hocking-81605ahg18-2-qt-glass-measuring-cup/55081605A.html)
+- [large pourable container](https://www.webstaurantstore.com/anchor-hocking-81605ahg18-2-qt-glass-measuring-cup/55081605A.html)
 
   i use this for pancakes + madelines + popovers. saves cleaning an extra bowl
 
@@ -144,8 +134,7 @@ Some additions:
 
 Probably most controversial:
 
-- [2 8-inch commercial chef's
-  knives](https://www.amazon.com/gp/product/B005P0OJ4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [2 8-inch commercial chef's knives](https://www.amazon.com/gp/product/B005P0OJ4S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
   _you can spend a ton of money on knives if you like. i've had extremely good
   results with these knives; bomber, sharpen easily and very sharp. clean and
@@ -153,8 +142,8 @@ Probably most controversial:
   sharpen, but now i just use one of those pocket ceramic sharpeners, which
   works great on these knives_
 
-You **DON'T** need a bread/serrated knife. A sharp chef's knife is better in every
-application IMO.
+You **DON'T** need a bread/serrated knife. A sharp chef's knife is better in
+every application IMO.
 
 I rarely/never use a paring knife; pretty much any kitchen task is easier with a
 chef's knife for me.
@@ -167,8 +156,7 @@ https://tylertringas.com/cooking-for-founders/
 
 ## Storage
 
-- [deli
-  containers](https://www.amazon.com/DuraHome-Containers-Leakproof-Container-Microwavable/dp/B075X416X8)
+- [deli containers](https://www.amazon.com/DuraHome-Containers-Leakproof-Container-Microwavable/dp/B075X416X8)
 
   these are super. they all use the same lids, nest compactly, leakproof, clear
   so you can tell what's in them. cheap. reusable. you can toss them if they
@@ -178,8 +166,7 @@ https://tylertringas.com/cooking-for-founders/
 
 This is stuff I use less frequently but is handy.
 
-- [spice
-  grinder](https://www.amazon.com/Grinder-capacity-Electric-Catcher-stainless/dp/B08HK6VCXP)
+- [spice grinder](https://www.amazon.com/Grinder-capacity-Electric-Catcher-stainless/dp/B08HK6VCXP)
 
   _I have a model sortof similar to this one. I use it when grinding whole
   toasted sichuan peppercorn, toasted whole spices for indian food, etc_

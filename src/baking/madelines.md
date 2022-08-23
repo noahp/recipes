@@ -1,7 +1,6 @@
 # 🐚 Madelines
 
-[Original
-recipe](https://www.allrecipes.com/recipe/9954/french-butter-cakes-madeleines/)
+[Original recipe](https://www.allrecipes.com/recipe/9954/french-butter-cakes-madeleines/)
 
 ## Ingredients
 
