@@ -5,6 +5,7 @@ recipe)[https://www.ethanchlebowski.com/cooking-techniques-recipes/pickled-onion
 
 ## Ingredients
 
+- 1 red onion
 - 1 part vinegar
 - 1 part water
 - Big pinch of salt
