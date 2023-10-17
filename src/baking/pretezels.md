@@ -40,4 +40,4 @@ _Topping ideas:_
    side, then place on the sheet tray.
 10. Brush with melted butter and sprinkle with toppings.
 11. Bake for 15-20 minutes until deeply brown.
-12. Cool on a wire rack for 10 minutes before serving.
+12. Cool on a wire rack for 10 minutes before shoving into mouth.
