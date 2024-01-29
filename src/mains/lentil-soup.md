@@ -14,6 +14,9 @@
 - 1-2 tbsp curry paste or curry powder, or 1 tsp each of cumin + coriander +
   tumeric + ground (or fresh!) ginger
 - salt and pepper to taste
+- [optional] can of coconut milk
+- [optional] fresh cilantro or parsley, chopped, and fresh lemon juice (for
+  serving)
 
 ## Directions
 
@@ -24,5 +27,7 @@
    some more olive oil if needed.
 3. Add the lentils and stock, bring to a boil, then reduce to a simmer and cook
    until the lentils are soft (about 20 minutes). Add more water if needed.
-4. Season with salt and pepper to taste, and serve with fresh bread (optionally
+4. With an immersion blender, puree the soup as chunky or smooth as you like.
+5. [optional] Stir in the coconut milk and simmer for another 5 minutes.
+6. Season with salt and pepper to taste, and serve with fresh bread (optionally
    garnish with fresh chopped cilantro or parsley and a squeeze of lemon juice).
