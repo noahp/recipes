@@ -11,7 +11,8 @@ set -ex
 
 python3 generate-summary.py
 
-if [ -n "${MDBOOK_JUST_BUILD}" ]; then
+# if arg is "build", just build the book
+if [ "$1" = "build" ]; then
     mdbook build
 else
     mdbook serve --hostname '0.0.0.0'
