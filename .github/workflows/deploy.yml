@@ -6,24 +6,46 @@ on:
       - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-      # checkout v2, with recursive submodule update
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
-        with:
-          submodules: recursive
+        uses: actions/checkout@v4
+
+      - name: Install mdBook 📚
+        run: |
+          wget https://github.com/rust-lang/mdBook/releases/download/v0.4.52/mdbook-v0.4.52-x86_64-unknown-linux-gnu.tar.gz
+          tar -xzf mdbook-v0.4.52-x86_64-unknown-linux-gnu.tar.gz
+          sudo mv mdbook /usr/local/bin/
 
       - name: Build 🔨
         run: |
-          DOCKER_USER="$(id -u):$(id -g)" MDBOOK_JUST_BUILD=1 docker-compose run mdbook
+          ./wrapper.sh build
 
-      - name: Deploy 🚀
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./book
+          path: book/
+
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
