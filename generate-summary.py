@@ -11,7 +11,7 @@ SUMMARY_MD_TEMPLATE = """# Summary
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        if sys.argv[1] == 'supports':
+        if sys.argv[1] == "supports":
             # sys.argv[2] is the renderer name
             sys.exit(0)
 
@@ -43,6 +43,7 @@ if __name__ == "__main__":
     # required for running as mdbook preprocessor
     if not sys.stdin.isatty():
         import json
+
         data = sys.stdin.read()
         # debug print what mdbook passes out on stderr
         # print(data, file=sys.stderr)
