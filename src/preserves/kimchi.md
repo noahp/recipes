@@ -1,5 +1,7 @@
 # 🥬 Kimchi
 
+![kimchi picture](../pics/kimchi.jpg)
+
 Basic vegan Kimchi recipe.
 
 Makes about 1.5 quarts depending on the size of the cabbage.
