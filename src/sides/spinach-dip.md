@@ -12,7 +12,7 @@
 ## Directions
 
 1. preheat the over to 425F. put the foil package of cream cheese into the oven
-   to soften (don't foget about it though!)
+   to soften (don't forget about it though!)
 2. once softened, add all the ingredients to a large bowl and mix thoroughly
 3. with a spatula, move the mixture to a 9x9 pyrex baking dish (or equivalent).
    smooth the top so the mixture is level.

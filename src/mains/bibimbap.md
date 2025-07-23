@@ -44,7 +44,7 @@ _About 3 servings_
 4. Cut up the carrot and cucumber and scallions.
 5. Heat oil in a work or nonstick frying pan on high heat until shimmering and
    HOT
-6. Add the protein and cook, stirring occassionally, until done, maybe ~4-5
+6. Add the protein and cook, stirring occasionally, until done, maybe ~4-5
    minutes or less
 7. Remove protein, add more oil if necessary, reheat until HOT again.
 8. Crack in the eggs and fry, flipping once if you like. If there's room left in

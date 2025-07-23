@@ -19,5 +19,5 @@ Recipe from [J. Kenji López-Alt](https://www.youtube.com/watch?v=p8nJIiQo7jw)
 
 ## Directions
 
-1. whisk together, let sit in the refridgerator at least a few hours,
-   preferrably overnight
+1. whisk together, let sit in the refrigerator at least a few hours,
+   preferably overnight

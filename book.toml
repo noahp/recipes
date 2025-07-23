@@ -16,7 +16,7 @@ git-repository-url = "https://github.com/noahp/recipes/tree/main"
 # insert it into the JSON data (which is substituting a fair chunk of what
 # mdbook does when scooping up the source content).
 #
-# insted, i'm just using it as a spot to cough out the src/SUMMARY.md file every
+# instead, i'm just using it as a spot to cough out the src/SUMMARY.md file every
 # time mdbook rebuilds (eg when doing 'serve' and detecting file changes). this
 # means that the SUMMARY.md file will always be 1 generation behind. in practice
 # it's not too janky when i'm adding a file, so long as i trigger 1 extra mdbook

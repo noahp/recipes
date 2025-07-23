@@ -18,7 +18,7 @@ subject.
 
 3. use a knife to trim the top 1/4" (5mm) or so off the top of each clove (chop
    your knife through the top of the head instead of doing each clove
-   individally)
+   individually)
 
    [<img src="../pics/trimming-garlic.jpg" height="200"/>](../pics/trimming-garlic.jpg)
    [<img src="../pics/trimmed-garlic.jpg" width="250"/>](../pics/trimmed-garlic.jpg)
