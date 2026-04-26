@@ -1,11 +1,11 @@
 [book]
 authors = ["Noah Pendleton"]
 language = "en"
-multilingual = false
 title = "Recipes"
 
 [output.html]
-additional-js = ["scripts/update-favicon.js"]
+additional-css = ["theme/custom.css"]
+additional-js = ["scripts/update-favicon.js", "scripts/hero-search.js"]
 edit-url-template = "https://github.com/noahp/recipes/edit/main/{path}"
 git-repository-url = "https://github.com/noahp/recipes/tree/main"
 
