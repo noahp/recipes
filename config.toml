@@ -1,4 +1,4 @@
-base_url = "https://noahpendleton.com/recipes"
+base_url = "https://recipes.noahpendleton.com"
 title = "Recipes"
 default_language = "en"
 build_search_index = true
