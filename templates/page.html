@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<article class="recipe-page">
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="{{ config.base_url }}/">Home</a>
+    <span aria-hidden="true"> › </span>
+    {% set parts = page.relative_path | split(pat="/") %}
+    {% set cat = parts[0] %}
+    {% set cat_sec = get_section(path=cat ~ "/_index.md") %}
+    <a href="{{ cat_sec.permalink }}">{{ cat_sec.title }}</a>
+    <span aria-hidden="true"> › </span>
+    <span>{{ page.title }}</span>
+  </nav>
+
+  <div class="recipe-content">
+    {{ page.content | safe }}
+  </div>
+
+  <footer class="page-footer">
+    <a href="{{ config.extra.edit_base }}/{{ page.relative_path }}" target="_blank" rel="noopener">Edit on GitHub</a>
+  </footer>
+</article>
+{% endblock %}
