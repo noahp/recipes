@@ -1,0 +1,14 @@
+base_url = "https://noahpendleton.com/recipes"
+title = "Recipes"
+default_language = "en"
+build_search_index = true
+
+[markdown]
+
+[search]
+index_format = "elasticlunr_javascript"
+
+[extra]
+github_url = "https://github.com/noahp/recipes/tree/main"
+edit_base = "https://github.com/noahp/recipes/edit/main/content"
+categories = ["baking", "mains", "misc", "preserves", "sides"]
