@@ -3,14 +3,16 @@
 {% block content %}
 <div class="home">
   <p class="home-tagline">A personal collection of recipes.</p>
-  <div class="category-grid">
-    {% for cat in config.extra.categories %}
-      {% set sec = get_section(path=cat ~ "/_index.md") %}
-      <a class="category-card" href="{{ sec.permalink }}">
-        <span class="cat-name">{{ sec.title }}</span>
-        <span class="cat-count">{{ sec.pages | length }}</span>
-      </a>
-    {% endfor %}
-  </div>
+  {% for cat in config.extra.categories %}
+    {% set sec = get_section(path=cat ~ "/_index.md") %}
+    <section class="home-category">
+      <h2 class="home-cat-title"><a href="{{ sec.permalink }}">{{ sec.title }}</a></h2>
+      <ul class="recipe-list">
+        {% for page in sec.pages %}
+          <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
 </div>
 {% endblock %}
